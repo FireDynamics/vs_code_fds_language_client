@@ -1,0 +1,8 @@
+out
+node_modules
+client/server
+.vscode-test
+.vscode
+package-lock.json
+todo.md
+release.zip

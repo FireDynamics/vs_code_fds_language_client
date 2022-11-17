@@ -1,0 +1,1124 @@
+# 22 Alphabetical List of Input Parameters
+
+
+##	22.1	BNDF	(Boundary File Parameters)
+Reference:	Section 21.5.
+CELL_CENTERED	Logical	Section 21.5		F
+MATL_ID	Character	Section 21.12
+PART_ID	Character	Section 21.12
+PROP_ID	Character	Section 21.5
+QUANTITY	Character	Section 21.12
+SPEC_ID	Character	Section 21.12
+TEMPORAL_STATISTIC	Character	Section 21.5
+
+
+##	22.4	COMB	(General Combustion Parameters)
+Reference:	Chapter 15.
+AIT_EXCLUSION_ZONE(6,:)	Real Array	Section 15.1.7	m
+AUTO_IGNITION_TEMPERATURE	Real	Section 15.1.7	◦ C	-273 ◦ C
+CHECK_REALIZABILITY	Logical	Section 15.3.4	F
+EXTINCTION_MODEL	Character	Section 15.1.6	’EXTINCTION	2’
+FIXED_MIX_TIME	Real	Section 15.1.5	s
+FREE_BURN_TEMPERATURE	Real	Section 15.1.6	◦ C	600
+FUEL_C_TO_CO_FRACTION	Real	Section 15.1.3	2/3
+FUEL_H_TO_H2_FRACTION	Real	Section 15.1.3	0
+FUEL_N_TO_HCN_FRACTION	Real	Section 15.1.3	1/5
+INITIAL_UNMIXED_FRACTION	Real	Section 15.1.5	1.0
+MAX_CHEMISTRY_SUBSTEPS	Integer	Section 15.3.4	20
+N_FIXED_CHEMISTRY_SUBSTEPS	Integer	Section 15.3.4	-1
+N_SIMPLE_CHEMISTRY_REACTIONS	Integer	Section 15.1.3	1
+ODE_SOLVER	Character	Section 15.3.4
+RADIATIVE_FRACTION	Real	Section 16.1
+RICHARDSON_ERROR_TOLERANCE	Real	Section 15.3.4	1.0 E-6
+SUPPRESSION	Logical	Section 15.1.6	T
+TAU_CHEM	Real	Section 15.1.5	1.E-10
+TAU_FLAME	Real	Section 15.1.5	1.E10
+
+
+##	22.5	CSVF	(Comma Separated Velocity Files)
+Reference:	Section 8.5.
+PER_MESH	Logical	Section 8.5		F
+UVWFILE	Character	Section 8.5
+
+
+##	22.6	CTRL	(Control Function Parameters)
+Reference:	Section 20.5.
+CONSTANT	Real	Section 20.5.6
+DELAY	Real	Section 20.5.10	s	0.
+DIFFERENTIAL_GAIN	Real	Section 20.5.7	0.
+EVACUATION	Logical	Reference [81]	F
+FUNCTION_TYPE	Character	Section 20.4
+ID	Character	Section 20.5
+INITIAL_STATE	Logical	Section 20.4	F
+INPUT_ID	Char. Array	Section 20.5
+INTEGRAL_GAIN	Real	Section 20.5.7	0.
+LATCH	Logical	Section 20.4	T
+N	Integer	Section 20.5	1
+ON_BOUND	Character	Section 20.5.3	LOWER
+PROPORTIONAL_GAIN	Real	Section 20.5.7	0.
+RAMP_ID	Character	Section 20.5.5
+SETPOINT(2)	Real	Section 20.4
+TARGET_VALUE	Real	Section 20.5.7	0.
+TRIP_DIRECTION	Integer	Section 20.4	1
+
+
+##	22.7	DEVC	(Device Parameters)
+Reference:	Section 20.1.
+ABSOLUTE_VALUE	Logical	Section 20.2	F
+BYPASS_FLOWRATE	Real	Section 20.3.7	kg/s	0
+CONVERSION_ADDEND	Real	Section 20.2	0
+CONVERSION_FACTOR	Real	Section 20.2	1
+COORD_FACTOR	Real	Section 21.2.2	1
+CTRL_ID	Character	Section 20.6.1
+DB	Character	Section 21.10.14
+DELAY	Real	Section 20.3.7	s	0
+DEPTH	Real	Section 21.10.12	m	0
+DEVC_ID	Character	Sections 20.3.7 and 20.6.1
+D_ID	Character	Section 21.2.2
+DRY	Logical	Section 21.10.19		F
+DUCT_ID	Character	Section 12.2
+DX	Real	Section 21.2.2	m	0
+DY	Real	Section 21.2.2	m	0
+DZ	Real	Section 21.2.2	m	0
+EVACUATION	Logical	Reference [81]	F
+FLOWRATE	Real	Section 20.3.7	kg/s	0
+FORCE_DIRECTION	Real(3)	Section 21.10.18
+HIDE_COORDINATES	Logical	Section 21.2.2	F
+ID	Character	Section 20.1
+INITIAL_STATE	Logical	Section 20.4	F
+INIT_ID	Character	Section 17.4
+IOR	Integer	Section 20.1
+LATCH	Logical	Section 20.4	T
+MATL_ID	Character	Section 21.10.12
+MOVE_ID	Character	Section 21.2.2
+N_INTERVALS	Integer	Section 21.10.15	10
+NODE_ID	Character(2)	Section 12.2
+NO_UPDATE_CTRL_ID	Character	Section 20.6.2
+NO_UPDATE_DEVC_ID	Character	Section 20.6.2
+ORIENTATION	Real Triplet	Section 20.1	0,0,-1
+ORIENTATION_NUMBER	Integer	Section 21.9	1
+OUTPUT	Logical	Section 20.2	T
+PART_ID	Character	Section 21.12
+PIPE_INDEX	Integer	Section 20.3.1	1
+POINTS	Integer	Section 21.2.2		1
+POINTS_ARRAY_X	Real Array	Section 21.2.2	m
+POINTS_ARRAY_Y	Real Array	Section 21.2.2	m
+POINTS_ARRAY_Z	Real Array	Section 21.2.2	m
+PROP_ID	Character	Section 20.1
+QUANTITY	Character	Section 20.1
+QUANTITY2	Character	Section 21.2.2
+QUANTITY_RANGE	Real(2)	Section 21.10.14		-1.E50,1.E50
+REAC_ID	Character	Section 21.13
+RELATIVE	Logical	Section 20.2 F
+R_ID	Character	Section 21.2.2
+ROTATION	Real	Section 20.1	deg.	0
+SETPOINT	Real	Section 20.4
+SMOOTHING_FACTOR	Real	Section 20.4 0
+SPATIAL_STATISTIC	Character	Section 21.10.14
+SPEC_ID	Character	Section 21.12
+STATISTICS_END	Real	Section 21.10.15	s	T_BEGIN
+STATISTICS_START	Real	Section 21.10.15	s	T_BEGIN
+SURF_ID	Character	Section 21.10.14
+TEMPORAL_STATISTIC	Character	Section 21.10.14
+TIME_AVERAGED	Logical	Section 20.2
+TIME_HISTORY	Logical	Section 21.2.2
+TIME_PERIOD	Real	Section 21.10.15	s
+TRIP_DIRECTION	Integer	Section 20.4	1
+UNITS	Character	Section 20.2
+VELO_INDEX	Integer	Section 21.10.21	0
+XB(6)	Real Sextuplet	Section 21.10.14	m
+XBP(6)	Real Sextuplet	Section 21.2.2	m
+XYZ(3)	Real Triplet	Section 20.1	m
+X_ID	Character	Section 21.2.2	ID-x
+Y_ID	Character	Section 21.2.2	ID-y
+Z_ID	Character	Section 21.2.2	ID-z
+XYZ_UNITS	Character	Section 21.2.2	’m’
+
+
+##	22.8	DUMP	(Output Parameters)
+Reference:	Section 21.1.
+BNDF_TIMER	Real Vector (10)	Section 21.5	s
+CFL_FILE	Logical	Section 6.2.2	F
+CLIP_RESTART_FILES	Logical	Section 7.3	T
+COLUMN_DUMP_LIMIT	Logical	Section 20.2	F
+CTRL_COLUMN_LIMIT	Integer	Section 20.2	254
+DEVC_COLUMN_LIMIT	Integer	Section 20.2	254
+DT_BNDF	Real	Section 21.1	s	2 ∆t /NFRAMES
+DT_CPU	Real	Section 25.5	s	1000000
+DT_CTRL	Real	Section 21.1	s	∆t /NFRAMES
+DT_DEVC	Real	Section 21.1	s	∆t /NFRAMES
+DT_FLUSH	Real	Section 21.1	s	∆t /NFRAMES
+DT_HRR	Real	Section 21.1	s	∆t /NFRAMES
+DT_ISOF	Real	Section 21.1	s	∆t /NFRAMES
+DT_MASS	Real	Section 21.1	s	∆t /NFRAMES
+DT_PART	Real	Section 21.1	s	∆t /NFRAMES
+DT_PL3D	Real	Section 21.1	s	1.E10
+DT_PROF	Real	Section 21.1	s	∆t /NFRAMES
+DT_RADF	Real	Section 21.10.10	s	∆t/5
+DT_RESTART	Real	Section 21.1	s	1000000.
+DT_SL3D	Real	Section 21.1	s	∆t/5
+DT_SLCF	Real	Section 21.1	s	∆t /NFRAMES
+DT_SMOKE3D	Real	Section 21.1	s	∆t /NFRAMES
+EB_PART_FILE	Logical	Section 25.11	F
+FLUSH_FILE_BUFFERS	Logical	Section 21.1	T
+HRR_GAS_ONLY	Logical	Section 21.10.1	F
+MASS_FILE	Logical	Section 21.1	F
+MAXIMUM_PARTICLES	Integer	Section 21.1	1000000
+NFRAMES	Integer	Section 21.1	1000
+PLOT3D_PART_ID(5)	Char. Quint	Section 21.7
+PLOT3D_QUANTITY(5)	Char. Quint	Section 21.7
+PLOT3D_SPEC_ID(5)	Char. Quint	Section 21.7
+PLOT3D_VELO_INDEX	Int. Quint	Section 21.10.21	0
+RENDER_FILE	Character	Reference [2]
+SIG_FIGS	Integer	Section 21.10.24	8
+SIG_FIGS_EXP	Integer	Section 21.10.24	3
+SL3D_TIMER	Real Vector (10)	Section 21.4	s
+SLCF_TIMER	Real Vector (10)	Section 21.4	s
+SMOKE3D	Logical	Section 21.8	T
+SMOKE3D_QUANTITY	Character	Section 21.8
+SMOKE3D_SPEC_ID	Character	Section 21.8
+STATUS_FILES	Logical	Section 21.1	F
+STORE_SPECIES_FLUX	Logical	Section 21.10.14	F
+SUPPRESS_DIAGNOSTICS	Logical	Section 3.5	F
+T_RADF_BEGIN	Real	Section 21.10.10	s	T_BEGIN
+T_RADF_END	Real	Section 21.10.10	s	T_END
+UVW_TIMER	Real Vector (10)	Section 8.5	s
+VELOCITY_ERROR_FILE	Logical	Section 21.10.23	F
+WRITE_XYZ	Logical	Section 21.7	F
+
+
+##	22.9	HEAD	(Header Parameters)
+Reference:	Section 6.1.
+CHID	Character	Section 6.1	’output’
+TITLE	Character	Section 21.7
+
+
+##	22.10	HOLE	(Obstruction Cutout Parameters)
+Reference:	Section 10.2.7.
+COLOR	Character	Section 10.4
+CTRL_ID	Character	Section 10.2.7
+DEVC_ID	Character	Section 10.2.7
+EVACUATION	Logical	Reference [81]
+ID	Character	Identifier for input line
+MESH_ID	Character	Reference [81]
+MULT_ID	Character	Section 10.5
+RGB(3)	Integer Triplet	Section 10.4
+TRANSPARENCY	Real	Section 10.2.7
+XB(6)	Real Sextuplet	Section 10.5	m
+
+
+##	22.11	HVAC	(HVAC System Definition)
+Reference:	Section 12.2.
+AIRCOIL_ID	Character	Section 12.2.1
+AMBIENT  AREA	Logical  Real	Section 12.2.3  Section 12.2.1	m2	F
+CLEAN_LOSS	Real	Section 12.2.5
+COOLANT_MASS_FLOW	Real	Section 12.2.6	kg/s
+COOLANT_SPECIFIC_HEAT	Real	Section 12.2.6	kJ/(kg · K)
+COOLANT_TEMPERATURE	Real	Section 12.2.6	◦ C
+CTRL_ID	Character	Sections 12.2.1, 12.2.4, 12.2.5
+DAMPER	Logical	Sections 12.2.1, 12.2.2		F
+DEVC_ID	Character	Sections 12.2.1, 12.2.4, 12.2.5
+DIAMETER	Real	Section 12.2.1	m
+DUCT_ID	Char. Array	Section 12.2.3
+DUCT_INTERP_TYPE	Character	Section 12.2.8		’NODE1’
+EFFICIENCY	Real Array	Sections 12.2.5, 12.2.6		1.0
+FAN_ID	Character	Section 12.2.1
+FILTER_ID	Character	Section 12.2.3
+FIXED_Q	Real	Section 12.2.6	kW
+ID	Character	Section 12.2
+LEAK_ENTHALPY	Logical	Section 12.3.2		F
+LENGTH	Real	Section 12.2.1	m
+LOADING	Real Array	Section 12.2.5	kg	0.0
+LOADING_MULTIPLIER	Real Array	Section 12.2.5	1/kg	1.0
+LOSS	Real Array	Sections 12.2.1 – 12.2.5		0.0
+MASS_FLOW   Real    Section 12.2.1  kg/s
+MAX_FLOW	Real	Section 12.2.4  m3/s
+MAX_PRESSURE	Real	Section 12.2.4	Pa
+N_CELLS	Integer	Section 12.2.8		10LENGTH
+NODE_ID	Char. Doublet	Section 12.2.1
+PERIMETER	Real	Section 12.2.1	m
+RAMP_ID	Character	Sections 12.2.1, 12.2.5, 12.2.4
+RAMP_LOSS	Character	Sections 12.2.1, 12.2.2
+REVERSE	Logical	Section 12.2.1		F
+ROUGHNESS	Real	Section 12.2.1	m	0.0
+SPEC_ID	Char. Array	Section 12.2.5
+TAU_AC	Real	Section 12.2.6	s	1.0
+TAU_FAN	Real	Section 12.2.4	s	1.0
+TAU_VF	Real	Section 12.2.1	s	1.0
+TYPE_ID	Character	Section 12.2
+VENT_ID	Character	Section 12.2.3
+VENT2_ID	Character	Section 12.3.2
+VENT2_ID	Real	Section 12.2.1, 12.2.4	m3 /s
+XYZ	Real Triplet	Section 12.2.3	m	0.0
+
+
+##	22.12	INIT	(Initial Conditions)
+Reference:	Section 8.
+CELL_CENTERED	Logical	Section 17.5.3		F
+CROWN_BASE_HEIGHT	Real	Section 19.2.1	m
+CROWN_BASE_WIDTH	Real	Section 19.2.1	m
+CTRL_ID	Character	Section 17.5.3
+DB	Character	Section 8.1
+DENSITY	Real	Section 8.3	kg/m3	Ambient
+DEVC_ID	Character	Section 17.5.3
+DIAMETER	Real	Section 17.5.3	μm
+DT_INSERT	Real	Section 17.5.3	s
+DX	Real	Section 17.5.3	m	0.
+DY	Real	Section 17.5.3	m	0.
+DZ	Real	Section 17.5.3	m	0.
+HEIGHT	Real	Section 17.5.3	m
+HRRPUV	Real	Section 8.4	kW/m3
+ID	Character	Section 17.4
+MASS_FRACTION(:)	Real Array	Section 8.1	kg/kg	Ambient
+MASS_PER_TIME	Real	Section 17.5.3	kg/s
+MASS_PER_VOLUME	Real	Section 17.5.3	kg/m3	1
+MULT_ID	Character	Section 10.5
+N_PARTICLES	Integer	Section 17.5.3		0
+N_PARTICLES_PER_CELL	Integer	Section 17.5.3		0
+PACKING_RATIO	Real	Section 19.2
+PART_ID	Character	Section 17.5.3
+PARTICLE_WEIGHT_FACTOR	Real	Section 17.5.3		1.
+PATH_RAMP(3)	Character	Section 17.5.3
+RADIATIVE_FRACTION	Real	Section 8.4		0.
+RADIUS	Real	Section 17.5.3	m
+RAMP_PART	Character	Section 17.5.3
+RAMP_Q	Character	Section 8.4
+SHAPE	Character	Section 17.5.3		’BLOCK’
+SPEC_ID(N)	Character Array	Section 8.1
+TEMPERATURE	Real	Section 8.2	°C	TMPA
+TREE_HEIGHT	Real	Section 19.2.1	m
+UNIFORM	Logical	Section 17.5.3		F
+UVW(3)	Real Array	Section 17.5.3	m/s	0.
+VOLUME_FRACTION(:)	Real Array	Section 8.1	mol/mol	Ambient
+XB(6)	Real Array	Section 8.1	m
+XYZ(3)	Real Array	Section 17.5.3	m
+
+
+##	22.13	ISOF	(Isosurface Parameters)
+Reference:	Section 21.6.
+DELTA	Real	Section 21.6
+QUANTITY	Character	Section 21.6
+QUANTITY2	Character	Section 21.6
+SKIP	Character	Section 21.6
+SPEC_ID	Character	Section 21.6
+SPEC_ID2	Character	Section 21.6
+VALUE	Real Array	Section 21.6
+VELO_INDEX	Integer	Section 21.10.21		0
+VELO_INDEX2	Integer	Section 21.10.21		0
+
+##	22.14	MATL	(Material Properties)
+Reference:	Section 11.3.
+A(:)	Real Array	Section 11.5	1/s
+ABSORPTION_COEFFICIENT	Real	Section 11.3.2	1/m	50000.
+ALLOW_SHRINKING	Logical	Section 11.5.3		T
+ALLOW_SWELLING	Logical	Section 11.5.3		T
+BETA_CHAR(:)	Real Array	Section 19.1	kg/kg	0.2
+BOILING_TEMPERATURE	Real	Section 11.5.7	◦C	5000.
+CONDUCTIVITY	Real	Section 11.3.2	W/(m · K)	0.
+CONDUCTIVITY_RAMP	Character	Section 11.3.2
+DENSITY	Real	Section 11.3.2	kg/m3	0.
+DIFFUSIVITY_SPEC(:)	Real	Section 11.5.9	m2/2
+E(:)	Real Array	Section 11.5	J/mol
+EMISSIVITY	Real	Section 11.3.2		0.9
+GAS_DIFFUSION_DEPTH(:)	Real Array	Section 11.5	m	0.001
+HEATING_RATE(:)	Real Array	Section 11.5	◦C/min	5.
+HEAT_OF_COMBUSTION(:,:)	Real Array	Section 11.5	kJ/kg
+HEAT_OF_REACTION(:)	Real Array	Section 11.5	kJ/kg	0.
+HEAT_OF_REACTION_RAMP(:)	Char. Array	Section 13.2
+ID	Character	Section 11.1
+MATL_ID(:,:)	Character	Section 11.5
+MW	Real	Section 11.5.7	g/mol
+N_O2(:)	Real Array	Section 11.5		0.
+N_REACTIONS	Integer	Section 11.5		0
+N_S(:)	Real Array	Section 11.5		1.
+N_T(:)	Real Array	Section 11.5		0.
+NU_MATL(:,:)	Real Array	Section 11.5	kg/kg	0.
+NU_O2_CHAR(:)	Real Array	Section 19.1	kg/kg	0.
+NU_PART(:,:)	Real Array	Section 11.5	kg/kg	0.
+NU_SPEC(:,:)	Real Array	Section 11.5	kg/kg	0.
+PART_ID(:,:)	Char. Array	Section 11.5
+PCR(:)	Logical Array	Section 11.5		F
+PYROLYSIS_RANGE(:)	Real Array	Section 11.5.2	◦C	80.
+REFERENCE_RATE(:)	Real Array	Section 11.5	1/s
+REFERENCE_TEMPERATURE(:)	Real Array	Section 11.5	◦C
+REFRACTIVE_INDEX	Real	Section 11.3.9		1.
+SPECIFIC_HEAT	Real	Section 11.3.2	kJ/(kg · K)	0.
+SPECIFIC_HEAT_RAMP	Character	Section 11.3.2
+SPEC_ID(:,:)	Char. Array	Section 11.5
+THRESHOLD_SIGN(:)	Real Array	Section 11.5		1.0
+THRESHOLD_TEMPERATURE(:)	Real Array	Section 11.5	◦C	-273.15
+
+
+##	22.15	MESH	(Mesh Parameters)
+Reference:	Section 6.3.
+CHECK_MESH_ALIGNMENT	Logical	Section 6.3.4		F
+COLOR	Character	Section 6.3.3		’BLACK’
+CYLINDRICAL	Logical	Section 6.3.2		F
+EVACUATION	Logical	Reference [81]		F
+EVAC_HUMANS	Logical	Reference [81]		F
+EVAC_Z_OFFSET	Real	Reference [81]	m	1
+ID	Character	Reference [81]
+IJK	Integer Triplet	Section 6.3.1		10,10,10
+LEVEL	Integer	For future use		0
+MPI_PROCESS	Integer	Section 6.3.3
+MULT_ID	Character	Section 10.5
+N_THREADS	Integer	Section 6.3.3
+RGB	Integer Triplet	Section 6.3.3		0,0,0
+TRNX_ID	Character	Section 6.3.5
+TRNY_ID	Character	Section 6.3.5
+TRNZ_ID	Character	Section 6.3.5
+XB(6)	Real Sextuplet	Section 6.3.1	m	0,1,0,1,0,1
+
+
+##	22.16	MISC	(Miscellaneous Parameters)
+Reference:	Section 7.
+AEROSOL_SCRUBBING	Logical	Section 15.6		F
+AGGLOMERATION	Logical	Section 15.5		T
+ALIGNMENT_TOLERANCE	Real	Section 6.3.4		0.001
+ALLOW_SURFACE_PARTICLES	Logical	Section 17.7.1		T
+ALLOW_UNDERSIDE_PARTICLES	Logical	Section 17.7.1		F
+ASSUMED_GAS_TEMPERATURE	Real	Section 11.6	◦ C
+ASSUMED_GAS_TEMPERATURE_RAMP	Character	Section 11.6
+BNDF_DEFAULT	Logical	Section 21.5		T
+C_DEARDORFF	Real	Section 7.5		0.1
+CFL_MAX	Real	Section 7.6.1		1.0
+CFL_MIN	Real	Section 7.6.1		0.8
+CFL_VELOCITY_NORM	Integer	Section 7.6.1
+CHECK_HT	Logical	Section 7.6.4		F
+CHECK_VN	Logical	Section 7.6.2		T
+CNF_CUTOFF	Real	Section 17.3.3		0.005
+CONSTANT_SPECIFIC_HEAT_RATIO	Logical	Section 14.1.3		F
+C_SMAGORINSKY	Real	Section 7.5		0.20
+C_VREMAN	Real	Section 7.5		0.07
+C_WALE	Real	Section 7.5		0.60
+DEPOSITION	Logical	Section 15.4		T
+EVACUATION_DRILL	Logical	Reference [81]		F
+EVACUATION_INITIALIZATION	Logical	Reference [81]		F
+EVACUATION_MC_MODE	Logical	Reference [81]		F
+EVACUATION_WRITE_FED	Logical	Reference [81]		F
+EVAC_PRESSURE_ITERATIONS	Integer	Reference [81]		50
+EVAC_SURF_DEFAULT	Character	Reference [81]
+EVAC_TIME_ITERATIONS	Integer	Reference [81]		50
+FLUX_LIMITER	Integer	Section 7.7		2
+FREEZE_VELOCITY	Logical	Section 7.10		F
+GAMMA	Real	Section 14.1.2		1.4
+GRAVITATIONAL_DEPOSITION	Logical	Section 15.4		T
+GRAVITATIONAL_SETTLING	Logical	Section 15.4	m/s2	T
+GVEC(3)	Real Array	Section 7.4	m/s2	0,0,-9.81
+H_F_REFERENCE_TEMPERATURE	Real	Section 21.10.22	◦ C	25.
+HUMIDITY	Real	Section 14.1.1	%	40.
+HVAC_LOCAL_PRESSURE	Logical	Section 12.2	T
+HVAC_MASS_TRANSPORT	Logical	Section 12.2.8		F
+HVAC_PRES_RELAX	Real	Section 12.2		0.5
+IBLANK_SMV	Logical	Section 21.4		T
+I_MAX_TEMP	Integer	Section 7.11.1	K	5000
+LEVEL_SET_ELLIPSE	Logical	Section 19.5		T
+LEVEL_SET_MODE	Integer	Section 19.5		0
+MAXIMUM_VISIBILITY	Real	Section 21.10.4	m	30
+MAX_LEAK_PATHS	Integer	Section 12.3.2		200
+MINIMUM_FILM_THICKNESS	Real	Section 17.7.1	m	0.00001
+MPI_TIMEOUT	Real	Section 21.10.23	s	10.
+NEAR_WALL_TURBULENCE_MODEL	Character	Section 7.5
+NOISE	Logical	Section 7.8		T
+NOISE_VELOCITY	Real	Section 7.8	m/s	0.005
+NO_EVACUATION	Logical	Reference [81]		F
+NORTH_BEARING	Real	Section 19.5.2	deg.
+ORIGIN_LAT	Real	Section 19.5.2	deg.
+ORIGIN_LON	Real	Section 19.5.2	deg.
+OVERWRITE	Logical	Section 7.9		T
+PARTICLE_CFL	Logical	Section 7.6.3		F
+PARTICLE_CFL_MAX	Real	Section 7.6.3		1.0
+PARTICLE_CFL_MIN	Real	Section 7.6.3		0.8
+POROUS_FLOOR	Logical	Section 17.6		T
+PR	Real	Section 7.5		0.5
+P_INF	Real	Section 7.1	Pa	101325
+RAMP_GX	Character	Section 7.4
+RAMP_GY	Character	Section 7.4
+RAMP_GZ	Character	Section 7.4
+RESTART	Logical	Section 7.3		F
+RESTART_CHID	Character	Section 7.3		CHID
+SC	Real	Section 7.5		0.5
+SHARED_FILE_SYSTEM	Logical	Section 6.3.3		T
+SIMULATION_MODE	Character	Section 7.2		’VLES’
+SMOKE_ALBEDO	Real	Reference [2]		0.3
+SOLID_PHASE_ONLY	Logical	Section 11.6		F
+SOOT_DENSITY	Real	Section 15.4		1800
+SOOT_OXIDATION	Logical	Section 15.4		F
+TAU_DEFAULT	Real	Section 13.1	s	1.
+TERRAIN_IMAGE	Character	Section 21.10.17
+TEXTURE_ORIGIN(3)	Real Triplet	Section 10.4.2	m	(0.,0.,0.)
+THERMOPHORETIC_DEPOSITION	Logical	Section 15.4		T
+THERMOPHORETIC_SETTLING	Logical	Section 15.4		T
+THICKEN_OBSTRUCTIONS	Logical	Section 10.2.1		F
+TMPA	Real	Section 7.1	◦ C	20.
+TURBULENCE_MODEL	Character	Section 7.5		’DEARDORFF’
+TURBULENT_DEPOSITION	Logical	Section 15.4		T
+VERBOSE	Logical	Section 6.3.3
+VISIBILITY_FACTOR	Real	Section 21.10.4		3
+VN_MAX	Real	Section 7.6.2		1.0
+VN_MIN	Real	Section 7.6.2		0.8
+Y_CO2_INFTY	Real	Section 15.1.1	kg/kg
+Y_O2_INFTY	Real	Section 15.1.1	kg/kg
+
+
+##	22.17	MOVE	(Coordinate Transformation Parameters)
+Reference:	Section 13.4.
+AXIS(3)	Real Array	Axis of rotation		(0.,0.,1.)
+SCALE	Real	Scaling in all directions		1.
+SCALEX	Real	Scaling in the unrotated x direction		1.
+SCALEY	Real	Scaling in the unrotated y direction		1.
+SCALEZ	Real	Scaling in the unrotated z direction		1.
+DX	Real	Translation in the x direction	m	0.
+DY	Real	Translation in the y direction	m	0.
+DZ	Real	Translation in the z direction	m	0.
+ID	Character	Identification tag
+ROTATION_ANGLE	Real	Angle of rotation about AXIS	deg.	0.
+T34	Real Array	3 × 4 Transformation Matrix		0.
+X0	Real	xorigin	m	0.
+Y0	Real	yorigin	m	0.
+Z0	Real	zorigin	m	0.
+
+
+##	22.18	MULT	(Multiplier Function Parameters)
+Reference:	Section 10.5.
+DX	Real	Spacing in the x direction	m	0.
+DXB(6)	Real Array	Spacing for all 6 coordinates	m	0.
+DX0	Real	Translation in the x direction	m	0.
+DY	Real	Spacing in the y direction	m	0.
+DY0	Real	Translation in the y direction	m	0.
+DZ	Real	Spacing in the z direction	m	0.
+DZ0	Real	Translation in the z direction	m	0.
+ID	Character	Identification tag
+I_LOWER	Integer	Lower array bound, x direction		0
+I_LOWER_SKIP	Integer	Lower array bound begin skip, x direction
+I_UPPER	Integer	Upper array bound, x direction		0
+I_UPPER_SKIP	Integer	Upper array bound end skip, x direction
+J_LOWER	Integer	Lower array bound, y direction		0
+J_LOWER_SKIP	Integer	Lower array bound begin skip, y direction
+J_UPPER	Integer	Upper array bound, y direction		0
+J_UPPER_SKIP	Integer	Upper array bound end skip, y direction
+K_LOWER	Integer	Lower array bound, z direction		0
+K_LOWER_SKIP	Integer	Lower array bound begin skip, z direction
+K_UPPER	Integer	Upper array bound, z direction		0
+K_UPPER_SKIP	Integer	Upper array bound end skip, z direction
+N_LOWER	Integer	Lower sequence bound		0
+N_LOWER_SKIP	Integer	Lower sequence bound begin skip
+N_UPPER	Integer	Upper sequence bound		0
+N_UPPER_SKIP	Integer	Upper sequence bound end skip
+
+
+##	22.19	OBST	(Obstruction Parameters)
+Reference:	Section 10.2.
+ALLOW_VENT	Logical	Section 10.2.1		T
+BNDF_FACE(-3:3)	Logical Array	Section 21.5		T
+BNDF_OBST	Logical	Section 21.5		T
+BULK_DENSITY	Real	Section 11.5.8	kg/m3
+COLOR	Character	Section 10.2.1
+CTRL_ID	Character	Section 20.4.2
+DEVC_ID	Character	Section 20.4.2
+EVACUATION	Logical	Reference [81]		F
+HEIGHT	Real	Section 10.5.2	m
+HT3D	Logical	Section 11.3.9		F
+ID	Character	Section 10.2.1
+INTERNAL_HEAT_SOURCE	Real	Section 11.3.9	kW/m3
+LENGTH	Real	Section 10.5.2	m
+MATL_ID	Character	Section 11.3.9
+MESH_ID	Character	Reference [81]
+MULT_ID	Character	Section 10.5
+ORIENTATION(3)	Real Array	Section 10.5.2	m	(0.,0.,1.)
+OUTLINE	Logical	Section 10.2.1		F
+OVERLAY	Logical	Section 10.2.1		T
+PERMIT_HOLE	Logical	Section 10.2.7		T
+PROP_ID	Character	Reference [2]
+PYRO3D_IOR	Integer	Section 11.5.9		0
+PYRO3D_MASS_TRANSPORT	Logical	Section 11.5.9		F
+RADIUS	Real	Section 10.5.2	m
+RAMP_Q	Character	Section 11.3.9
+REMOVABLE	Logical	Section 10.2.7		T
+RGB(3)	Integer Array	Section 10.2.1
+SHAPE	Character	Section 10.5.2
+SURF_ID	Character	Section 10.2.1
+SURF_ID6(6)	Char. Array	Section 10.2.1
+SURF_IDS(3)	Char. Array	Section 10.2.1
+TEXTURE_ORIGIN(3)	Real Array	Section 10.4.2	m	(0.,0.,0.)
+THETA	Real	Section 10.5.2	deg.
+THICKEN	Logical	Section 10.2.1		F
+TRANSPARENCY	Real	Section 10.2.1		1
+WIDTH	Real	Section 10.5.2	m
+XB(6)	Real Array	Section 10.2.1	m
+XYZ(3)	Real Array	Section 10.5.2	m	(0.,0.,0.)
+
+
+##	22.20	PART	(Lagrangian Particles/Droplets)
+Reference:	Chapter 17.
+ADHERE_TO_SOLID	Integer	Section 17.4.5		0
+AGE	Real	Section 21.9	s	1 × 105
+BREAKUP	Logical	Section 17.3.4		F
+BREAKUP_CNF_RAMP_ID	Character	Section 17.3.4
+BREAKUP_DISTRIBUTION	Character	Section 17.3.4		’ROSIN...’
+BREAKUP_GAMMA_D	Real	Section 17.3.4		2.4
+BREAKUP_RATIO	Real	Section 17.3.4		3/7
+BREAKUP_SIGMA_D	Real	Section 17.3.4
+CHECK_DISTRIBUTION	Logical	Section 17.3.3		F
+CNF_RAMP_ID	Character	Section 17.3.3
+COLOR	Character	Section 21.9		’BLACK’
+COMPLEX_REFRACTIVE_INDEX	Real	Section 17.3.2		0.01
+CTRL_ID	Character	Section 17.5.1
+DENSE_VOLUME_FRACTION	Real	Section 17.3.5		1 × 10−5
+DEVC_ID	Character	Section 17.5.1
+DIAMETER	Real	Section 17.3.3	μm
+DISTRIBUTION	Character	Section 17.3.3		’ROSIN...’
+DRAG_COEFFICIENT(3)	Real Array	Section 17.4.2
+DRAG_LAW	Character	Section 17.4.2		’SPHERE’
+FREE_AREA_FRACTION	Real	Section 17.4.9
+GAMMA_D	Real	Section 17.3.3		2.4
+HEAT_OF_COMBUSTION	Real	Section 17.3.1	kJ/kg
+HEAT_TRANSFER_COEFFICIENT_GAS	Real	Section 17.3.1	W/m2 /K
+HEAT_TRANSFER_COEFFICIENT_SOLID	Real	Section 17.7.1	W/m2 /K	300
+HORIZONTAL_VELOCITY	Real	Section 17.7.1	m/s	0.2
+ID	Character	Section 17.1
+INITIAL_TEMPERATURE	Real	Section 17.3.1	◦ C	TMPA
+KILL_DIAMETER	Real	Section 17.3.3	μm
+MASSLESS	Logical	Section 17.2		F
+MASS_TRANSFER_COEFFICIENT	Real	Section 17.3.1	m/s
+MAXIMUM_DIAMETER	Real	Section 17.3.3	μm	1000000
+MINIMUM_DIAMETER	Real	Section 17.3.3	μm
+MONODISPERSE	Logical	Section 17.3.3		F
+N_STRATA	Integer	Section 17.3.3		6
+ORIENTATION(1:3,:)	Real Array	Section 17.4
+PERMEABILITY(3)	Real Array	Section 17.4.8
+POROUS_VOLUME_FRACTION	Real	Section 17.4.8
+PROP_ID	Character	Section 17.1
+QUANTITIES(10)	Character	Section 21.9
+QUANTITIES_SPEC_ID(10)	Character	Section 21.9
+RADIATIVE_PROPERTY_TABLE	Real	Section 17.3.2
+REAL_REFRACTIVE_INDEX	Real	Section 17.3.2		1.33
+RGB(3)	Integers	Section 21.9
+RUNNING_AVERAGE_FACTOR	Real	Section 17.3.2		0.5
+RUNNING_AVERAGE_FACTOR_WALL	Real	Section 17.3.2		0.5
+SAMPLING_FACTOR	Integer	Section 21.9		1
+SHAPE_FACTOR	Real	Section 19.2		0.25
+SIGMA_D	Real	Section 17.3.3
+SPEC_ID	Character	Section 17.3.1
+STATIC	Logical	Section 17.4		F
+SURFACE_DIAMETER	Real	Section 17.7.1	μm	1000.
+SURFACE_TENSION	Real	Section 17.3.4	N/m	7.28 × 10−2
+SURF_ID	Character	Section 17.4
+TURBULENT_DISPERSION	Logical	Section 17.2		F
+VERTICAL_VELOCITY	Real	Section 17.7.1	m/s	0.5
+
+
+##	22.21	PRES	(Pressure Solver Parameters)
+Reference:	Section 9.
+BAROCLINIC	Logical	Section 9.2		T
+CHECK_POISSON	Logical	Section 9.1		F
+FISHPAK_BC(3)	Integer Array	Section 10.3.2
+ITERATION_SUSPEND_FACTOR	Real	Section 9.1	s	0.95
+MAX_PRESSURE_ITERATIONS	Integer	Section 9.1		10
+PRESSURE_RELAX_TIME	Real	Section 12.3.3	s	1.
+PRESSURE_TOLERANCE	Real	Section 9.1	s−2
+RELAXATION_FACTOR	Real	Section 12.3.3		1.
+SOLVER	Character	Section 9.1.1		’FFT’
+SUSPEND_PRESSURE_ITERATIONS	Logical	Section 9.1		T
+TUNNEL_PRECONDITIONER	Logical	Section 9.3		F
+VELOCITY_TOLERANCE	Real	Section 9.1	m/s
+
+
+##	22.22	PROF	(Wall Profile Parameters)
+Reference:	Section 21.3.
+CELL_CENTERED	Logical	Section 21.3		F
+FORMAT_INDEX	Integer	Section 21.3		1
+ID	Character	Section 21.3
+INIT_ID	Character	Section 21.3
+IOR	Real	Section 21.3
+QUANTITY	Character	Section 21.3
+XYZ	Real Triplet	Section 21.3	m
+
+##	22.23	PROP	(Device Properties)
+Reference:	Section 20.3.
+ACTIVATION_OBSCURATION	Real	Section 20.3.5	%/m	3.24
+ACTIVATION_TEMPERATURE	Real	Section 20.3.1	◦ C	74.
+ALPHA_C	Real	Section 20.3.5		1.8
+ALPHA_E	Real	Section 20.3.5		0.
+BETA_C	Real	Section 20.3.5		1.
+BETA_E	Real	Section 20.3.5		1.
+CHARACTERISTIC_VELOCITY	Real	Section 21.10.18	m/s	1.
+C_FACTOR	Real	Section 20.3.1	(m/s)1/2	0.
+DENSITY	Real	Section 21.10.7	kg/m3	8908.
+DIAMETER	Real	Section 21.10.7	m	0.001
+EMISSIVITY	Real	Section 21.10.7		0.85
+FED_ACTIVITY	Integer	Section 21.10.13		2
+FLOW_RAMP	Character	Section 20.3.1
+FLOW_RATE	Real	Section 20.3.1	L/min
+FLOW_TAU	Real	Section 20.3.1		0.
+GAUGE_EMISSIVITY	Real	Section 21.10.8		1.
+GAUGE_TEMPERATURE	Real	Section 21.10.8	◦ C	TMPA
+HEAT_TRANSFER_COEFFICIENT	Real	Section 21.10.7	W/(m2 · K)
+HISTOGRAM	Logical	Section 21.10.16		F
+HISTOGRAM_CUMULATIVE	Logical	Section 21.10.16		F
+HISTOGRAM_LIMITS(2)	Real Array	Section 21.10.16
+HISTOGRAM_NBINS	Integer	Section 21.10.16		10
+HISTOGRAM_NORMALIZE	Logical	Section 21.10.16		T
+ID	Character	Section 20.3
+INITIAL_TEMPERATURE	Real	Section 20.3.1	◦ C	TMPA
+K_FACTOR	Real	Section 20.3.1	1 L/(min · bar 2  )	1.
+LENGTH	Real	Section 20.3.5	m	1.8
+MASS_FLOW_RATE	Real	Section 20.3.1	kg/s
+OFFSET	Real	Section 20.3.1	m	0.05
+OPERATING_PRESSURE	Real	Section 20.3.1	bar	1.
+ORIFICE_DIAMETER	Real	Section 20.3.1	m	0.
+PARTICLES_PER_SECOND	Integer	Section 20.3.1		5000
+PARTICLE_VELOCITY	Real	Section 20.3.1	m/s	0.
+PART_ID	Character	Section 20.3.1
+PDPA_END	Real	Section 21.10.11	s	T_END
+PDPA_INTEGRATE	Logical	Section 21.10.11		T
+PDPA_M	Integer	Section 21.10.11		0
+PDPA_N	Integer	Section 21.10.11		0
+PDPA_NORMALIZE	Logical	Section 21.10.11		T
+PDPA_RADIUS	Real	Section 21.10.11	m	0.
+PDPA_START	Real	Section 21.10.11	s	0.
+PRESSURE_RAMP	Character	Section 20.3.1
+P0	Real	Section 20.3.3	m/s	0.
+PX(3)	Real	Section 20.3.3	m/s	0.
+PXX(3,3)	Real	Section 20.3.3	m/s	0.
+QUANTITY	Character	Section 20.3.1	√
+RTI	Real	Section 20.3.1	m · s	100.
+SMOKEVIEW_ID(:)	Char. Array	Section 20.7.1
+SMOKEVIEW_PARAMETERS(:)	Char. Array	Section 20.7.2
+SPEC_ID	Character	Section 20.3.5
+SPECIFIC_HEAT	Real	Section 21.10.7	kJ/(kg · K)	0.44
+SPRAY_ANGLE(2,2)	Real	Section 20.3.1	degrees	60.,75.
+SPRAY_PATTERN_BETA	Real	Section 20.3.1	degrees	5.
+SPRAY_PATTERN_MU	Real	Section 20.3.1	degrees	0.
+SPRAY_PATTERN_SHAPE	Character	Section 20.3.1		’GAUSSIAN’
+SPRAY_PATTERN_TABLE	Character	Section 20.3.1
+VELOCITY_COMPONENT	Integer	Section 20.3.3
+
+
+##	22.24	RADF	(Radiation Output File Parameters)
+Reference:	Section 21.10.10.
+I_STEP	Integer	Section 21.10.10		1
+J_STEP	Integer	Section 21.10.10		1
+K_STEP	Integer	Section 21.10.10		1
+XB	Real Sextuplet	Section 21.10.10	m
+
+
+##	22.25	RADI	(Radiation Parameters)
+Reference:	Section 16.1.
+ANGLE_INCREMENT BAND_LIMITS	Integer Real Array	SectionSection 16.3 16.3.2	μm	5
+C_MAX	Real	Section 16.1		100
+C_MIN	Real	Section 16.1		1
+INITIAL_RADIATION_ITERATIONS	Integer	Section 16.2		3
+KAPPA0	Real	Section 16.3	1/m	0
+MIE_MINIMUM_DIAMETER	Real	Section 16.4	μm	0.5
+MIE_MAXIMUM_DIAMETER	Real	Section 16.4	μm	1.5×D
+MIE_NDG	Integer	Section 16.4		50
+NMIEANG	Integer	Section 16.4		15
+NUMBER_RADIATION_ANGLES	Integer	Section 16.2		100
+OPTICALLY_THIN	Logical	Section 16.1		F
+PATH_LENGTH	Real	Section 16.3.1	m	0.1
+QR_CLIP	Real	Section 16.1	kW/m3	10
+RADIATION	Logical	Section 16.1.1		T
+RADIATION_ITERATIONS	Integer	Section 16.2		1
+RADTMP	Real	Section 16.4	◦ C	900
+TIME_STEP_INCREMENT	Integer	Section 16.2		3
+WIDE_BAND_MODEL	Logical	Section 16.3.2		F
+WSGG_MODEL	Logical	Section 16.3.3		F
+
+
+##	22.26	RAMP	(Ramp Function Parameters)
+Reference:	Chapter 13.
+CTRL_ID	Character	Section 20.6.1
+DEVC_ID	Character	Section 20.6.1
+F	Real	Chapter 13
+ID	Character	Chapter 13
+NUMBER_INTERPOLATION_POINTS	Integer	Chapter 13		5000
+T	Real	Chapter 13	s (or ◦ C)
+X	Real	Section 7.4	m
+Z	Real	Section 18.1.3	m
+
+
+##	22.27	REAC	(Reaction Parameters)
+Reference:	Chapter 15.
+A	Real	Section 15.3
+AIT_EXCLUSION_ZONE(6,:)	Real Array	Section 15.1.7	m
+AUTO_IGNITION_TEMPERATURE	Real	Section 15.1.7	◦ C	-273 ◦ C
+C	Real	Section 15.1.1		0
+CHECK_ATOM_BALANCE	Logical	Section 15.2		T
+CO_YIELD	Real	Section 15.1.1	kg/kg	0
+CRITICAL_FLAME_TEMPERATURE	Real	Section 15.1.6	◦ C	1427
+E	Real	Section 15.3	J/mol
+EPUMO2	Real	Section 15.1.2	kJ/kg	13100
+EQUATION	Character	Section 15.2.5
+FORMULA	Character	Section 15.1.1
+FUEL	Character	Section 15.1.1
+FUEL_RADCAL_ID	Character	Section 15.1.1
+FWD_ID	Character	Section 15.3.2
+H	Real	Section 15.1.1		0
+HCN_YIELD	Real	Section 15.1.1	kg/kg	0
+HEAT_OF_COMBUSTION	Real	Section 15.1.2	kJ/kg
+HOC_COMPLETE	Real	Section 15.1.4	kJ/kg
+ID	Character	Section 15.1.1
+IDEAL	Logical	Section 15.1.1		F
+LOWER_OXYGEN_LIMIT	Real	Section 15.1.6	mol/mol
+N	Real	Section 15.1.1		0
+NU(:)	Real Array	Section 15.3
+N_S(:)	Real Array	Section 15.3
+N_T	Real	Section 15.3
+O	Real	Section 15.1.1		0
+PRIORITY	Integer	Section 15.2.3		1
+RADIATIVE_FRACTION	Real	Section 16.1
+RAMP_CHI_R	Character	Section 16.1
+REAC_ATOM_ERROR	Real	Section 15.2	atoms	1.E-5
+REAC_MASS_ERROR	Real	Section 15.2	kg/kg	1.E-4
+REVERSE	Logical	Section 15.3.2		F
+SOOT_H_FRACTION	Real	Section 15.1.1		0.1
+SOOT_YIELD	Real	Section 15.1.1	kg/kg	0.0
+SPEC_ID_N_S(:)	Char. Array	Section 15.3
+SPEC_ID_NU(:)	Char. Array	Section 15.3
+THIRD_BODY	Logical	Section 15.3		F
+
+
+##	22.28	SLCF	(Slice File Parameters)
+Reference:	Section 21.4.
+AGL_SLICE	Real	Section 21.10.17	m
+CELL_CENTERED	Logical	Section 21.4		F
+DB	Character	Section 21.4
+EVACUATION	Logical	Reference [81]		F
+ID	Character	Section 21.4
+MAXIMUM_VALUE	Real	Reference [2]
+MESH_NUMBER	Integer	Section 21.4
+MINIMUM_VALUE	Real	Reference [2]
+PART_ID	Character	Section 21.12
+PBX, PBY, PBZ	Real	Section 21.4	m
+PROP_ID	Character	Section 21.10.13
+QUANTITY	Character	Section 21.12
+QUANTITY2	Character	Section 21.12
+REAC_ID	Character	See QUANTITY=‘HRRPUV REAC‘
+SPEC_ID	Character	Section 21.12
+VECTOR	Logical	Section 21.4		F
+VELO_INDEX	Integer	Section 21.10.21		0
+XB(6)	Real Array	Section 21.4	m
+
+
+##	22.29	SPEC	(Species Parameters)
+Reference:	Section 14.
+AEROSOL	Logical	Section 15.4		F
+BACKGROUND	Logical	Section 14		F
+BETA_LIQUID	Real	Section 17.3.1	1/K
+CONDUCTIVITY	Real	Section 14.1.2	W/(m · K)
+CONDUCTIVITY_LIQUID	Real	Section 17.3.1	W/(m · K)
+CONDUCTIVITY_SOLID	Real	Section 15.4	W/(m · K)	0.26
+COPY_LUMPED	Logical	Section 14.2		F
+DENSITY_LIQUID	Real	Section 17.3.1	kg/m3
+DENSITY_SOLID	Real	Section 15.4	kg/m3	1800.
+DIFFUSIVITY	Real	Section 14.1.2	m2 /s
+ENTHALPY_OF_FORMATION	Real	Section 17.3.1	kJ/mol
+EPSILONKLJ	Real	Section 14.1.2		0
+FIC_CONCENTRATION	Real	Section 21.10.13	ppm	0.
+FLD_LETHAL_DOSE	Real	Section 21.10.13	ppm×min	0.
+FORMULA	Character	Section 14.1.2
+HEAT_OF_VAPORIZATION	Real	Section 17.3.1	kJ/kg
+H_V_REFERENCE_TEMPERATURE	Real	Section 17.3.1	◦ C
+ID	Character	Section 14.1.1
+LUMPED_COMPONENT_ONLY	Logical	Section 14.2		F
+MASS_EXTINCTION_COEFFICIENT	Real	Section 20.3.5		0
+MASS_FRACTION(:)	Real Array	Section 14.2		0
+MASS_FRACTION_0	Real	Section 14.1.1		0
+MASS_FRACTION_COND_0	Real	Section 15.7		0
+MAX_DIAMETER	Real	Section 15.5	m
+MEAN_DIAMETER	Real	Section 15.4	m
+MELTING_TEMPERATURE	Real	Section 17.3.1	◦ C
+MIN_DIAMETER	Real	Section 15.5	m
+MW	Real	Section 14.1.2	g/mol	29.
+N_BINS	Integer	Section 15.5
+PR_GAS	Real	Section 14.1.2		PR
+PRIMITIVE	Logical	Section 14.1.2
+RADCAL_ID	Character	Section 14.1.5
+RAMP_CP	Character	Section 14.1.2
+RAMP_CP_L	Character	Section 17.3.1
+RAMP_D	Character	Section 14.1.2
+RAMP_G_F	Character	Section 14.1.2
+RAMP_K	Character	Section 14.1.2
+RAMP_MU	Character	Section 14.1.2
+REFERENCE_ENTHALPY	Real	Section 14.1.2	kJ/kg
+REFERENCE_TEMPERATURE	Real	Section 14.1.2	◦ C	25.
+SIGMALJ	Real	Section 14.1.2		0
+SPEC_ID(:)	Char. Array	Section 14.2
+SPECIFIC_HEAT	Real	Section 14.1.2	kJ/(kg · K)
+SPECIFIC_HEAT_LIQUID	Real	Section 17.3.1	kJ/(kg · K)
+THERMOPHORETIC_DIAMETER	Real	Section 15.4	m
+VAPORIZATION_TEMPERATURE	Real	Section 17.3.1	◦ C
+VISCOSITY	Real	Section 14.1.2	kg/(m · s)
+VISCOSITY_LIQUID	Real	Section 17.3.1	kg/(m · s)
+VOLUME_FRACTION(:)	RealArray	Section 14.2
+
+
+##	22.30	SURF	(Surface Properties)
+Reference:	Section 10.1.
+ADIABATIC	Logical	Section 11.2.3	F
+AREA_MULTIPLIER	Real	Section 11.4.3	1.0
+BACKING	Character	Section 11.3.3	’EXPOSED’
+BLOWING	Logical	Section 11.2.2	F
+BURN_AWAY	Logical	Section 11.5.8	F
+BURN_DURATION	Real	Section 11.5.8	s	1000000
+CELL_SIZE_FACTOR	Real	Section 11.3.8		1.0
+C_FORCED_CONSTANT	Real	Section 11.2.2		0.0
+C_FORCED_PR_EXP	Real	Section 11.2.2		0.0
+C_FORCED_RE	Real	Section 11.2.2		0.0
+C_FORCED_RE_EXP	Real	Section 11.2.2		0.0
+C_HORIZONTAL	Real	Section 11.2.2		1.52
+C_VERTICAL	Real	Section 11.2.2		1.31
+COLOR	Character	Section 10.4
+CONE_HEAT_FLUX	Real	Section 11.4.4	kW/m2
+CONVECTION_LENGTH_SCALE	Real	Section 11.2.2	m	1.
+CONVECTIVE_HEAT_FLUX	Real	Section 11.2.2	kW/m2
+CONVERT_VOLUME_TO_MASS	Logical	Section 12.1.6		F
+DEFAULT	Logical	Section 10.1		F
+DELTA_TMP_MAX	Real	Section 11.3.8	◦ C	10
+DRAG_COEFFICIENT	Real	Section 19.3		2.8
+DT_INSERT	Real	Section 17.5.1	s	0.01
+E_COEFFICIENT	Real	Section 17.7	m2 /(kg · s)
+EMBER_GENERATION_HEIGHT(2)	Real	Section 17.5.1	m
+EMISSIVITY	Real	Section 11.2.2		0.9
+EMISSIVITY_BACK	Real	Section 11.3.3
+EVAC_DEFAULT	Logical	Reference [81]		F
+EXTERNAL_FLUX	Real	Section 11.6	kW/m2
+EXTINCTION_TEMPERATURE	Real	Section 11.4.4	◦ C	-273.
+FREE_SLIP	Logical	Section 12.1.7		F
+GEOMETRY	Character	Section 11.3.7		’CARTESIAN’
+HEAT_OF_VAPORIZATION	Real	Section 11.4.4	kJ/kg
+HEAT_TRANSFER_COEFFICIENT	Real	Section 11.2.2	W/(m2 · K)
+HEAT_TRANSFER_COEFFICIENT_BACK	Real	Section 11.2.2	W/(m2 · K)
+HEAT_TRANSFER_MODEL	Character	Section 11.2.2
+HRRPUA	Real	Section 11.4.1	kW/m2
+HT3D	Logical	Section 11.3.9		F
+ID	Character	Section 10.1
+IGNITION_TEMPERATURE	Real	Section 11.4.4	◦ C	5000.
+INNER_RADIUS	Real	Section 17.4.1	m
+INTERNAL_HEAT_SOURCE	Real Array	Section 11.3.6	kW/m3
+LAYER_DIVIDE	Real	Section 11.3.5		N_LAYERS/2
+LEAK_PATH	Int. Pair	Section 12.3.2
+LEAK_PATH_ID	Character Pair	Section 12.3.2
+LENGTH	Real	Section 17.4.1	m
+MASS_FLUX(:)	Real Array	Section 12.1.6	kg/(m2 · s)
+MASS_FLUX_TOTAL	Real	Section 12.1.2	kg/(m2 · s)
+MASS_FLUX_VAR	Real	Section 12.1.9
+MASS_FRACTION(:)	Real Array	Section 12.1.6
+MASS_TRANSFER_COEFFICIENT	Real	Section 11.5.7	m/s
+MATL_ID(:,:)	Char. Array	Section 11.5
+MATL_MASS_FRACTION(:,:)	Real Array	Section 11.5
+MINIMUM_BURNOUT_TIME	Real	Section 19.3.1	s	1000000
+MINIMUM_LAYER_THICKNESS	Real	Section 11.3.8	m	1.E-6
+MLRPUA	Real	Section 11.4.1	kg/(m2 · s)
+MOISTURE_FRACTION(:)	Real Array	Section 19.2		0.
+N_LAYER_CELLS_MAX	Integer Array	Section 11.3.8		1000
+NET_HEAT_FLUX	Real	Section 11.2.2	kW/m2
+NO_SLIP	Logical	Section 12.1.7		F
+NPPC	Integer	Section 17.5.1		1
+PACKING_RATIO(:)	Real Array	Section 19.2
+PARTICLE_EXTRACTION_VELOCITY	Real	Section 17.6	m/s
+PARTICLE_MASS_FLUX	Real	Section 17.5.1	kg/(m2 · s)
+PARTICLE_SURFACE_DENSITY	Real	Section 17.5.1	kg/m2
+PART_ID	Character	Section 17.5.1
+PLE	Real	Section 18.4		0.3
+PROFILE	Character	Section 12.5
+RADIUS	Real	Section 17.4.1	m
+RAMP_EF	Character	Section 13.1
+RAMP_MF(:)	Character	Section 13.1
+RAMP_PART	Character	Section 13.1
+RAMP_Q	Character	Section 13.1
+RAMP_T	Character	Section 13.1
+RAMP_T_B	Character	Section 11.3.4
+RAMP_T_I	Character	Section 11.3.4
+RAMP_V	Character	Section 13.1
+RAMP_V_X	Character	Section 13.3
+RAMP_V_Y	Character	Section 13.3
+RAMP_V_Z	Character	Section 13.3
+RGB(3)	Integer Array	Section 10.4		255,204,102
+ROUGHNESS	Real	Section 12.1.7	m	0.
+SHAPE_FACTOR	Real	Section 19.3		0.25
+SPEC_ID	Character	Section 12.1.6
+SPREAD_RATE	Real	Section 11.4.2	m/s
+STRETCH_FACTOR(:)	Real	Section 11.3.8		2.
+SUBSTEP_POWER	Integer	Section 11.3.8		2
+SURFACE_VOLUME_RATIO(:)	Real	Section 19.2	1/m
+TAU_EF	Real	Section 13.1	s	1.
+TAU_MF(:)	Real Array	Section 13.1	s	1.
+TAU_PART	Real	Section 13.1	s	1.
+TAU_Q	Real	Section 13.1	s	1.
+TAU_T	Real	Section 13.1	s	1.
+TAU_V	Real	Section 13.1	s	1.
+TEXTURE_HEIGHT	Real	Section 10.4.2	m	1.
+TEXTURE_MAP	Character	Section 10.4.2
+TEXTURE_WIDTH	Real	Section 10.4.2	m	1.
+TGA_ANALYSIS	Logical	Section 11.6.2		F
+TGA_FINAL_TEMPERATURE	Real	Section 11.6.2	◦ C	800.
+TGA_HEATING_RATE	Real	Section 11.6.2	◦ C/min	5.
+THICKNESS(:)	Real Array	Section 11.1	m
+TMP_BACK	Real	Section 11.3.4	◦ C	20.
+TMP_FRONT	Real	Section 11.2.1	◦ C	20.
+TMP_INNER(:)	Real Array	Section 11.3.4	◦ C	20.
+TRANSPARENCY	Real	Section 10.4		1.
+VEG_LSET_BETA	Real	Section 19.5		0.
+VEG_LSET_CHAR_FRACTION	Real	Section 19.5		0.2
+VEG_LSET_FIREBASE_TIME	Real	Section 19.5	s
+VEG_LSET_FUEL_INDEX	Integer	Section 19.5
+VEG_LSET_HT	Real	Section 19.5		0.
+VEG_LSET_IGNITE_TIME	Real	Section 19.5	s
+VEG_LSET_M1	Real	Section 19.5		0.03
+VEG_LSET_M10	Real	Section 19.5		0.04
+VEG_LSET_M100	Real	Section 19.5		0.05
+VEG_LSET_MLW	Real	Section 19.5		0.70
+VEG_LSET_MLH	Real	Section 19.5		0.70
+VEG_LSET_QCON	Real	Section 19.5	kW/m2	0.
+VEG_LSET_ROS_00	Real	Section 19.5	m/s	0.
+VEG_LSET_ROS_BACK	Real	Section 19.5	m/s	0.
+VEG_LSET_ROS_FLANK	Real	Section 19.5	m/s	0.
+VEG_LSET_ROS_HEAD	Real	Section 19.5	m/s	0.
+VEG_LSET_SIGMA	Real	Section 19.5	1/m	0.
+VEG_LSET_SURF_LOAD	Real	Section 19.5	kg/m2	0.3
+VEG_LSET_TAN2	Real	Section 19.5
+VEG_LSET_WIND_EXP	Real	Section 19.5		1.
+VEL	Real	Section 12.1	m/s
+VEL_BULK	Real	Section 12.5	m/s
+VEL_GRAD	Real	Section 12.1.5	1/s
+VEL_PART	Real	Section 17.5.1	m/s
+VEL_T(2)	RealArray	Section 12.1.4	m/s
+VOLUME_FLOW	Real	Section 12.1	m3 /s
+WIDTH	Real	Section 17.4.1	m
+XYZ(3)	RealArray	Section 11.4.2	m
+Z0	Real	Section 18.4	m	10.
+Z_0	Real	Section 11.2.2	m	0.
+
+
+##	22.31	TABL	(Table Parameters)
+Reference:	Section 20.3.1.
+ID	Character	Section 20.3.1
+TABLE_DATA(9)	Real Array	Section 20.3.1
+
+
+##	22.32	TIME	(Time Parameters)
+Reference:	Section 6.2.
+DT	Real	Section 6.2.2	s
+DT_END_FILL	Real	Section 6.2.2	s	1.0 × 10−6
+DT_END_MINIMUM	Real	Section 6.2.2	s	2.EPSILON
+EVAC_DT_FLOWFIELD	Real	Reference [81]	s	0.01
+EVAC_DT_STEADY_STATE	Real	Reference [81]	s	0.05
+LIMITING_DT_RATIO	Real	Section 4.2		0.0001
+LOCK_TIME_STEP	Logical	Section 6.2.2		F
+RESTRICT_TIME_STEP	Logical	Section 6.2.2		T
+T_BEGIN	Real	Section 6.2.1	s	0.
+T_END	Real	Section 6.2.1	s	1.
+TIME_SHRINK_FACTOR	Real	Section 6.2.3		1.
+WALL_INCREMENT	Integer	Section 11.3.8		2
+WALL_INCREMENT_HT3D	Integer	Section 11.3.9		2
+
+
+##	22.33.1	TRNX	(MESH Transformations)
+Reference:	Section 6.3.5.
+CC	Real	Section 6.3.5	m
+ID	Character	Section 6.3.5
+IDERIV	Integer	Section 6.3.5
+MESH_NUMBER	Integer	Section 6.3.5
+PC	Real	Section 6.3.5
+
+##	22.33.2	TRNY	(MESH Transformations)
+Reference:	Section 6.3.5.
+CC	Real	Section 6.3.5	m
+ID	Character	Section 6.3.5
+IDERIV	Integer	Section 6.3.5
+MESH_NUMBER	Integer	Section 6.3.5
+PC	Real	Section 6.3.5
+
+##	22.33.3	TRNZ	(MESH Transformations)
+Reference:	Section 6.3.5.
+CC	Real	Section 6.3.5	m
+ID	Character	Section 6.3.5
+IDERIV	Integer	Section 6.3.5
+MESH_NUMBER	Integer	Section 6.3.5
+PC	Real	Section 6.3.5
+
+
+##	22.34	VENT	(Vent Parameters)
+ Reference:	Section 10.3.
+COLOR	Character	Section 10.4
+CTRL_ID	Character	Section 20.4.2
+DB	Character	Section 10.3.1
+DEVC_ID	Character	Section 20.4.2
+DYNAMIC_PRESSURE	Real	Section 12.4	Pa	0.
+EVACUATION	Logical	Reference [81]		F
+GEOM	Logical	Section 19.5		F
+ID	Character	Section 10.3.1
+IOR	Integer	Section 10.3.4
+L_EDDY	Real	Section 12.1.8	m	0.
+L_EDDY_IJ(3,3)	Real Array	Section 12.1.8	m	0.
+MB	Character	Section 10.3.1
+MESH_ID	Character	Reference [81]
+MULT_ID	Character	Section 10.5
+N_EDDY	Integer	Section 12.1.8		0
+OBST_ID	Character	Section 20.4.2
+OUTLINE	Logical	Section 10.3.1		F
+PBX, PBY, PBZ	Real	Section 10.3.1
+PRESSURE_RAMP	Character	Section 12.4
+RADIUS	Real	Section 10.3.2	m
+REYNOLDS_STRESS(3,3)	Real Array	Section 12.1.8	m2 /s2	0.
+RGB(3)	Integer Array	Section 10.4
+SPREAD_RATE	Real	Section 11.4.2	m/s	0.05
+SURF_ID	Character	Section 10.3.1		’INERT’
+TEXTURE_ORIGIN(3)	Real Array	Section 10.4.2	m	(0.,0.,0.)
+TMP_EXTERIOR	Real	Section 10.3.2	◦C
+TMP_EXTERIOR_RAMP	Character	Section 10.3.2
+TRANSPARENCY	Real	Section 10.4		1.0
+UVW(3)	Real Array	Section 12.2.7
+VEL_RMS	Real	Section 12.1.8	m/s	0.
+XB(6)	Real Array	Section 10.3.1	m
+XYZ(3)	Real Array	Section 11.4.2	m
+
+
+##	22.35	WIND	(Wind and Atmospheric Parameters)
+Reference:	Section 18.1.
+CORIOLIS_VECTOR(3)	Real	Section 18.2.1		0.
+DIRECTION	Real	Section 18.1	degrees	270
+FORCE_VECTOR(3)	Real	Section 18.2		0.
+GEOSTROPHIC_WIND(2)	Real	Section 18.2.2	m/s
+GROUND_LEVEL	Real	Section 18.4	m	0.
+L	Real	Section 18.1	m	0
+LAPSE_RATE	Real	Section 18.4	◦ C/m	0
+LATITUDE	Real	Section 18.2.1	degrees
+POTENTIAL_TEMPERATURE_CORRECTION	Logical	Section 18.2.3		F
+RAMP_DIRECTION	Character	Section 18.1
+RAMP_FVX_T	Character	Section 18.2
+RAMP_FVY_T	Character	Section 18.2
+RAMP_FVZ_T	Character	Section 18.2
+RAMP_SPEED	Character	Section 18.1.3
+RAMP_TMP0_Z	Character	Section 18.4
+RAMP_U0_T	Character	Section 18.1.3
+RAMP_U0_Z	Character	Section 18.1.3
+RAMP_V0_T	Character	Section 18.1.3
+RAMP_V0_Z	Character	Section 18.1.3
+RAMP_W0_T	Character	Section 18.1.3
+RAMP_W0_Z	Character	Section 18.1.3
+SIGMA_THETA	Real	Section 18.1.3	degrees
+SPEED	Real	Section 18.1	m/s	0.
+STRATIFICATION	Logical	Section 18.4		T
+TAU_THETA	Real	Section 18.1.3	s	300
+THETA_STAR	Real	Section 18.1	K
+TMP_REF	Real	Section 18.1	◦ C	TMPA
+U_STAR	Real	Section 18.1	m/s
+U0,V0,W0	Reals	Section 18.1	m/s	0.
+USE_ATMOSPHERIC_INTERPOLATION	Logical	FDS Tech Guide [3]		T
+Z_0	Real	Section 18.1	m	0.03
+Z_REF	Real	Section 18.1	m	2.
+
+
+##	22.36	ZONE	(Pressure Zone Parameters)
+Reference:	Section 12.3.
+ID	Character	Section 12.3.1
+LEAK_AREA(N)	Real	Section 12.3.2	m2	0
+LEAK_PRESSURE_EXPONENT(N)	Real	Section 12.3.2		0.5
+LEAK_REFERENCE_PRESSURE(N)	Real	Section 12.3.2	Pa	4
+PERIODIC	Logical	Section 12.3.1		F
+XB(6)	Real Array	Section 12.3.1	m
+XYZ(3,:)	Real Array	Section 12.3.1	m
+
