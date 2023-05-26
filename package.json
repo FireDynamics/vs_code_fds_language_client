@@ -3,7 +3,7 @@
 	"description": "The vs code extention for the fds language server.",
 	"author": "Daniele Döhle",
 	"license": "MIT",
-	"version": "2.0.0",
+	"version": "2.1.0",
 	"repository": {
 		"type": "GitHub",
 		"url": "https://github.com/FireDynamics/vs_code_fds_language_client"
