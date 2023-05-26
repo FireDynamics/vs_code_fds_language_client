@@ -13,7 +13,7 @@ let client: LanguageClient;
 export function activate(context: ExtensionContext) {
 	var os = "";
 	if (process.platform == "win32") {
-		os = 'win'
+		os = 'windows.exe'
 	} else if (process.platform == "darwin") {
 		os = 'mac'
 	} else {
