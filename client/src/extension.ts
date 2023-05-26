@@ -1,5 +1,6 @@
+import { existsSync } from 'fs';
 import * as path from 'path';
-import { workspace, ExtensionContext } from 'vscode';
+import { workspace, ExtensionContext, window, ExtensionMode } from 'vscode';
 
 import {
 	LanguageClient,
@@ -10,19 +11,43 @@ import {
 let client: LanguageClient;
 
 export function activate(context: ExtensionContext) {
+	var os = "";
+	if (process.platform == "win32") {
+		os = 'win'
+	} else if (process.platform == "darwin") {
+		os = 'mac'
+	} else {
+		os = 'linux'
+	}
+
+
 	// Path of the server
-	const serverPath = context.asAbsolutePath(path.join('server', 'fds-language-server'));
+	const release_serverPath = context.asAbsolutePath(path.join('server', 'release', 'fds-language-server-' + os));
+	const debug_serverPath = context.asAbsolutePath(path.join('server', 'debug', 'fds-language-server-' + os));
+
+
+	if (context.extensionMode == ExtensionMode.Production) {
+		if (!existsSync(release_serverPath)) {
+			console.error(`Can not fined server '${release_serverPath}'`)
+		}
+	} else {
+		if (!existsSync(debug_serverPath)) {
+			console.error(`Can not fined server '${debug_serverPath}'`)
+		}
+	}
+	context.extensionMode
+
 	// Path of the class definition
-	const fdsClassesPath = context.asAbsolutePath(path.join("fds", "fds_classes.csv"));
-	const fdsClassesPathArg = `RUST_FDS_CLASSES_PATH=${fdsClassesPath}`;
+	const fdsDataPath = context.asAbsolutePath(path.join("fds", "data"))
+	const fdsDataPathArg = `RUST_FDS_DATA_PATH=${fdsDataPath}`;
 
 	// Debug arguments
 	const debugArg = "RUST_LOG=lsp_server=debug";
 
 	// Server options
 	const serverOptions: ServerOptions = {
-		run: { command: serverPath, args: [fdsClassesPathArg] },
-		debug: { command: serverPath, args: [fdsClassesPathArg, debugArg] }
+		run: { command: release_serverPath, args: [fdsDataPathArg] },
+		debug: { command: debug_serverPath, args: [fdsDataPathArg, debugArg] }
 	};
 
 	// Client options

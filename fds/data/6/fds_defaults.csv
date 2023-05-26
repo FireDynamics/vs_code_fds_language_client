@@ -1,0 +1,726 @@
+#;COLOR
+Name;R;G;B;
+AQUAMARINE;127;255;212;
+ANTIQUE WHITE;250;235;215;
+BEIGE;245;245;220;
+BLACK;0;0;0;
+BLUE;0;0;255;
+BLUE VIOLET;138;43;226;
+BRICK;156;102;31;
+BROWN;165;42;42;
+BURNT SIENNA;138;54;15;
+BURNT UMBER;138;51;36;
+CADET BLUE;95;158;160;
+CHOCOLATE;210;105;30;
+COBALT;61;89;171;
+CORAL;255;127;80;
+CYAN;0;255;255;
+DIM GRAY;105;105;105;
+EMERALD GREEN;0;201;87;
+FIREBRICK;178;34;34;
+FLESH;255;125;64;
+FOREST GREEN;34;139;34;
+GOLD;255;215;0;
+GOLDENROD;218;165;32;
+GRAY;128;128;128;
+GREEN;0;255;0;
+GREEN YELLOW;173;255;47;
+HONEYDEW;240;255;240;
+HOT PINK;255;105;180;
+INDIAN RED;205;92;92;
+INDIGO;75;0;130;
+IVORY;255;255;240;
+IVORY BLACK;41;36;33;
+KELLY GREEN;0;128;0;
+KHAKI;240;230;140;
+LAVENDER;230;230;250;
+LIME GREEN;50;205;50;
+MAGENTA;255;0;255;
+MAROON;128;0;0;
+MELON;227;168;105;
+MIDNIGHT BLUE;25;25;112;
+MINT;189;252;201;
+NAVY;0;0;128;
+OLIVE;128;128;0;
+OLIVE DRAB;107;142;35;
+ORANGE;255;128;0;
+ORANGE RED;255;69;0;
+ORCHID;218;112;214;
+PINK;255;192;203;
+POWDER BLUE;176;224;230;
+PURPLE;128;0;128;
+RASPBERRY;135;38;87;
+RED;255;0;0;
+ROYAL BLUE;65;105;225;
+SALMON;250;128;114;
+SANDY BROWN;244;164;96;
+SEA GREEN;84;255;159;
+SEPIA;94;38;18;
+SIENNA;160;82;45;
+SILVER;192;192;192;
+SKY BLUE;135;206;235;
+SLATE BLUE;106;90;205;
+SLATE GRAY;112;128;144;
+SPRING GREEN;0;255;127;
+STEEL BLUE;70;130;180;
+TAN;210;180;140;
+TEAL;0;128;128;
+THISTLE;216;191;216;
+TOMATO;255;99;71;
+TURQUOISE;64;224;208;
+VIOLET;238;130;238;
+VIOLET RED;208;32;144;
+WHITE;255;255;255;
+YELLOW;255;255;0;
+
+
+
+#REAC;FUEL
+Species;Mol. Wt. (g/mol);Chemical  Formula;σ (Å);ε/k (K);Liquid;RadCal Surrogate 
+ACETONE;58.07914;C3 H6 O;4.6;560.2;Y;MMA 
+ACETYLENE;26.037280;C2 H2;4.033;231.8;;PROPYLENE 
+ACROLEIN;56.063260;C3 H4 O;4.549;576.7;Y;MMA 
+AMMONIA;17.03052;NH3;2.9;558.3;Y;
+ARGON;39.948000;Ar;3.42;124.0;Y;
+BENZENE;78.11184;C6 H6;5.349;412.3;Y;TOLUENE 
+BUTANE;58.122200;C4 H10;4.687;531.4;Y;PROPANE 
+CARBON;12.0107;C;2.94;74.8;;
+CARBON DIOXIDE;44.009500;CO2;3.941;195.2;;CARBON DIOXIDE 
+CARBON MONOXIDE;28.010100;CO;3.690;91.7;Y;CARBON MONOXIDE 
+CHLORINE;70.906;Cl2;4.217;316.0;Y;
+DODECANE;170.33484;C12 H26;4.701;205.78;Y;N-HEPTANE 
+ETHANE;30.069040;C2 H6;4.443;215.7;Y;ETHANE 
+ETHANOL;46.068440;C2 H5 OH;4.530;362.6;Y;METHANOL 
+ETHYLENE;28.053160;C2 H4;4.163;224.7;Y;ETHYLENE 
+FORMALDEHYDE;30.025980;CH2 O;3.626;481.8;Y;METHANOL 
+HELIUM;4.002602;He;2.551;10.22;Y;
+HYDROGEN;2.015880;H2;2.827;59.7;Y;
+HYDROGEN ATOM;1.007940;H;2.31;123.6;;
+HYDROGEN BROMIDE;80.911940;HBr;3.353;449.0;Y;;
+HYDROGEN CHLORIDE;36.460940;HCl;3.339;344.7;Y;;
+HYDROGEN CYANIDE;27.025340;HCN;3.63;569.1;Y;;
+HYDROGEN FLUORIDE;20.006343;HF;3.148;330.0;Y;;
+HYDROGEN PEROXIDE;34.014680;H2O2;3.02;106.5;Y;;
+HYDROGEN SULFIDE;34.08088;H2 S;3.623;301.1;Y;;
+HYDROPEROXY RADICAL;33.006740;HO2;3.02;106.5;;;
+HYDROXYL RADICAL;17.007340;OH;2.66;92.1;;;
+ISOPROPANOL;60.095020;C3 H7 OH;4.549;576.7;Y;METHANOL;
+LJ AIR;28.854760;;3.711;78.6;;;
+METHANE;16.042460;CH4;3.758;148.6;Y;METHANE;
+METHANOL;32.041860;CH3 OH;3.626;481.8;Y;METHANOL;
+N-DECANE;142.281680;C10 H22;5.233;226.46;Y;N-HEPTANE;
+N-HEPTANE;100.201940;C7 H16;4.701;205.75;Y;N-HEPTANE;
+N-HEXANE;86.175360;C6 H12;5.949;399.3;Y;N-HEPTANE;
+N-OCTANE;114.228520;C8 H18;4.892;231.16;Y;N-HEPTANE;
+NITRIC OXIDE;30.006100;NO;3.492;116.7;Y;;
+NITROGEN;28.013400;N2;3.798;71.4;Y;;
+NITROGEN ATOM;14.006700;N;2.66;92.1;;;
+NITROGEN DIOXIDE;46.05500;NO2;3.992;204.88;Y;;
+NITROUS OXIDE;44.012800;N2O;3.828;232.4;Y;;
+OXYGEN;31.998800;O2;3.467;106.7;Y;;
+OXYGEN ATOM;15.999400;O;2.66;92.1;;;
+PROPANE;44.095620;C3 H8;5.118;237.1;Y;PROPANE;
+PROPYLENE;42.079740;C3 H6;4.678;298.9;Y;PROPYLENE;
+SOOT;10.910420;C0.9 H0.1;3.798;71.4;;SOOT;
+SULFUR DIOXIDE;64.063800;SO2;4.112;335.4;Y;;
+SULFUR HEXAFLUORIDE;146.055419;SF6;5.128;146.0;;;
+TOLUENE;92.138420;C6 H5CH3;5.698;480.0;Y;TOLUENE;
+WATER VAPOR;18.015280;H2O;2.641;809.1;Y;WATER VAPOR;
+XENON;131.293;Xe;4.047;231.0;Y;;
+
+
+
+#PART;DRAG_LAW
+DRAG_LAW;Reference 
+SPHERE;FDS Tech Guide [3] 
+CYLINDER;FDS Tech Guide [3] 
+POROUS MEDIA;Sec. 17.4.8 
+SCREEN;Sec. 17.4.9 
+
+
+
+#CTRL;FUNCTION_TYPE
+FUNCTION_TYPE;Purpose;
+ANY;Changes state if any INPUTs are .TRUE.;
+ALL;Changes state if all INPUTs are .TRUE.;
+ONLY;Changes state if and only if N INPUTs are .TRUE.;
+AT_LEAST;Changes state if at least N INPUTs are .TRUE.;
+TIME_DELAY;Changes state DELAY s after INPUT becomes .TRUE.;
+CUSTOM;Changes state based on evaluating a RAMP of the function’s input;
+DEADBAND;Behaves like a thermostat;
+KILL;Terminates code execution if INPUT is .TRUE.;
+RESTART;Dumps restart files if INPUT is .TRUE.;
+SUM;Sums the outputs of the INPUTs;
+SUBTRACT;Subtracts the second INPUT from the first;
+MULTIPLY;Multiplies the INPUTs;
+DIVIDE;Divides the first INPUT by the second;
+POWER;The first INPUT to the power of the second;
+EXP;The exponential of the INPUT;
+LOG;The natural logarithm of the INPUT;
+COS;The cosine of the INPUT;
+SIN;The sine of the INPUT;
+ACOS;The arccosine of the INPUT;
+ASIN;The arcsine of the INPUT;
+MAX;Maximum value of the INPUTs;
+MIN;Minimum value of the INPUTs;
+PID;A Proportional-Integral-Derivative control for the INPUT;
+
+
+
+#PROP;SMOKEVIEW_ID
+SMOKEVIEW_ID
+sensor 
+target  
+heat_detector 
+nozzle 
+smoke_detector 
+sprinkler_upright 
+sprinkler_pendent 
+ball 
+cone 
+fan 
+tsphere 
+vent 
+box 
+tube 
+velegg 
+veltube 
+
+
+
+#PROP;QUANTITY
+QUANTITY;φ;f;Unit;
+DIAMETER;1;f 1;μm;
+ENTHALPY;(4/3)ρi ri 3 (c p,i(T i )T i − c p,i (T m )T m );f 2;kJ/m3;
+PARTICLE FLUX X;(4/3)ρi ri 3ui;f 2;kg/m2 s;
+PARTICLE FLUX Y;(4/3)ρi ri 3vi;f 2;kg/(m2 · s);
+PARTICLE FLUX Z;(4/3)ρi ri 3wi;f 2;kg/(m2 · s);
+U-VELOCITY;ui;f 1;m/s;
+V-VELOCITY;vi;f 1;m/s;
+W-VELOCITY;wi;f 1;m/s;
+VELOCITY;(u2 i + v2 i + w2 i ) 1  2;f 1;m/s;
+TEMPERATURE;T i;f 1;◦ C;
+MASS CONCENTRATION;(4/3)ρri 3;f 2;kg/m3;
+NUMBER CONCENTRATION;1;f 2;;
+
+
+
+#BNDF;QUANTITY
+QUANTITY;Symbol;Units
+ADIABATIC SURFACE TEMPERATURE;Section 21.10.8;◦ C;
+AMPUA2;Section 21.9;kg/m2;
+AMPUA_Z1;Section 21.9;kg/m2;
+BACK WALL TEMPERATURE;Section 21.2.4;◦ C;
+BURNING RATE;Mass loss rate of fuel;kg/(m2 · s);
+CONDENSATION HEAT FLUX;Section 15.7;kW/m2;
+CONVECTIVE HEAT FLUX;Section 21.10.7;kW/m2;
+CPUA2;Section 21.9;kW/m2;
+CPUA_Z1;Section 21.9;kW/m2;
+DEPOSITION VELOCITY;Section 15.4;m/s;
+FRICTION VELOCITY;Section 21.10.24;m/s;
+GAUGE HEAT FLUX;Section 21.10.7;kW/m2;
+NET HEAT FLUX;Section 21.10.7;kW/m2;
+INCIDENT HEAT FLUX;Section 21.10.7;kW/m2;
+MASS FLUX1,4;Section21.10.13;kg/(m2 · s);
+MASS FLUX WALL1;Section 21.10.13;kg/(m2 · s);
+MPUA2;Section 21.9;kg/m2;
+MPUA_Z1;Section 21.9;kg/m2;
+NORMAL VELOCITY;Wall normal velocity;m/s;
+PRESSURE COEFFICIENT;Section 21.10.17;;
+RADIATIVE HEAT FLUX;Section 21.10.7;kW/m2;
+RADIOMETER;Section 21.10.7;kW/m2;
+SURFACE DENSITY4;Section 21.10.11;kg/m2;
+SURFACE DEPOSITION1;Section 15.4;kg/m2;
+WALL TEMPERATURE;Surface temperature;◦ C;
+WALL THICKNESS;Section 21.10.11;m;
+EMISSIVITY;Surface emissivity (usually constant);;
+GAS DENSITY;Gas Density near wall;kg/m3;
+GAS TEMPERATURE;Gas Temperature near wall;◦ C;
+HEAT TRANSFER COEFFICIENT;Section 11.2.2;W/(m2 · K);
+OBUKHOV LENGTH;Section  11.2.2;m;
+SUBSTEPS;Section 11.3.8;;
+VELOCITY ERROR;Section 9;;
+VISCOUS STRESS WALL;Section 21.10.17;Pa;
+VISCOUS WALL UNITS;Section 21.10.24;;
+WALL ENTHALPY;R  ρscsT dV s;kJ;
+WALL PRESSURE;Section 21.10.17;Pa;
+WALL VISCOSITY;Near-wall viscosity, μw;kg/(m · s);
+
+
+
+#DEVC;QUANTITY
+QUANTITY;Symbol;Units
+ABSORPTION COEFFICIENT;Section 16.3;1/m;
+ACTUATED SPRINKLERS;Section 21.10.22;;
+ADIABATIC SURFACE TEMPERATURE;Section 21.10.8;◦ C;
+AEROSOL VOLUME FRACTION1;Section 21.10.19;mol/mol;
+AMPUA2;Section 21.9;kg/m2;
+AMPUA_Z1;Section 21.9;kg/m2;
+ASPIRATION;Section 20.3.7;%/m;
+BACKGROUND PRESSURE;Background pressure, p;Pa;
+BACK WALL TEMPERATURE;Section 21.2.4;◦ C;
+BURNING RATE;Mass loss rate of fuel;kg/(m2 · s);
+CHAMBER OBSCURATION;Section 20.3.5;%/m;
+CHI_R;Section 16.1;;
+CONDUCTIVITY;Thermal conductivity;W/(m · K);
+CONTROL;Section 20.5;;
+CONTROL VALUE;Section 20.5;;
+CONDENSATION HEAT FLUX;Section 15.7;kW/m2;
+CONVECTIVE HEAT FLUX;Section 21.10.7;kW/m2;
+CPUA2;Section 21.9;kW/m2;
+CPUA_Z1;Section 21.9;kW/m2;
+CPU TIME;Section 21.10.22;s;
+DENSITY;ρ or ρY α with SPEC_ID;kg/m3;
+DEPOSITION VELOCITY;Section 15.4;m/s;
+DIVERGENCE;∇ · u;1/s;
+ENTHALPY;Section 14.1.3;kJ/m3;
+EXTINCTION COEFFICIENT;Section 21.10.4;1/m;
+FED;Section 21.10.12;;
+FIC;Section 21.10.12;;
+FRICTION VELOCITY;Section 21.10.24;m/s;
+GAUGE HEAT FLUX;Section 21.10.7;kW/m2;
+HEAT FLOW;Section 21.10.13;kW;
+HEAT FLOW WALL;Section 21.10.13;kW;
+NET HEAT FLUX;Section 21.10.7;kW/m2;
+HRR;R q̇000  dV;kW;
+HRRPUA;q̇00;kW/m2;
+HRRPUV;q̇000;kW/m3;
+INCIDENT HEAT FLUX;Section 21.10.7;kW/m2;
+INSIDE WALL TEMPERATURE;Section 21.2.3;◦ C;
+INSIDE WALL DEPTH;Section 21.2.3;m;
+INTERNAL ENERGY;ρh − p̄;kJ/m3;
+ITERATION;Section 21.10.22;;
+LAYER HEIGHT;Section 21.10.5;m;
+LINK TEMPERATURE;Section 20.3.4;◦ C;
+LOWER TEMPERATURE;Section 21.10.5;◦ C;
+MASS FLOW;Section21.10.13;kg/s;
+MASS FLOW WALL;Section21.10.13;kg/s;
+MASS FLUX1,4;Section21.10.13;kg/(m2 · s);
+MASS FLUX WALL1;Section 21.10.13;kg/(m2 · s);
+MASS FLUX X1;ρuYα;kg/(m2 · s);
+MASS FLUX Y1;ρvYα;kg/(m2 · s);
+MASS FLUX Z1;ρwY α;kg/(m2 · s);
+MASS FRACTION1;Y α;kg/kg;
+MIXTURE FRACTION;Z;kg/kg;
+MPUA2;Section 21.9;kg/m2;
+MPUA_Z1;Section 21.9;kg/m2;
+MPUV2;Section 21.9;kg/m3;
+MPUV_Z1;Section 21.9;kg/m3;
+NORMAL VELOCITY;Wall normal velocity;m/s;
+NUMBER OF PARTICLES;Section 21.10.22;;
+OPEN NOZZLES;Section 21.10.22;;
+OPTICAL DENSITY;Section 21.10.4;1/m;
+PATH OBSCURATION;Section 20.3.6;%;
+PRESSURE;Perturbation pressure, p̃;Pa;
+PRESSURE COEFFICIENT;Section 21.10.17;;
+PRESSURE ZONE;Section 12.3;;
+RADIATIVE HEAT FLUX;Section 21.10.7;kW/m2;
+RADIATIVE HEAT FLUX GAS;Section 21.10.7;kW/m2;
+RADIOMETER;Section 21.10.7;kW/m2;
+RELATIVE HUMIDITY;Section 15.1.1;%;
+SENSIBLE ENTHALPY;Section 21.10.21;kJ/m3;
+SOLID CELL DENSITY;Section 11.5.9;kg/m3;
+SOLID CELL Q_S;Section 11.5.9;kW/m3;
+SOLID CELL VOLUME RATIO;Section 11.5.9;m3 /m3;
+SOLID CONDUCTIVITY;Section 21.2.3;W/(m · K);
+SOLID DENSITY4;Section 21.2.3;kg/m3;
+SOLID SPECIFIC HEAT;Section 21.2.3;kJ/(kg · K);
+SPECIFIC ENTHALPY;Section 21.10.21;kJ/kg;
+SPECIFIC HEAT;c p;kJ/(kg · K);
+SPECIFIC INTERNAL ENERGY;h − p̄/ρ;kJ/kg;
+SPECIFIC SENSIBLE ENTHALPY;Section 21.10.21;kJ/kg;
+SPRINKLER LINK TEMPERATURE;Section 20.3.1;◦ C;
+SURFACE DENSITY4;Section 21.10.11;kg/m2;
+SURFACE DEPOSITION1;Section 15.4;kg/m2;
+TEMPERATURE;Section 21.10.6;◦ C;
+THERMOCOUPLE;Section 21.10.6;◦ C;
+TIME;Section 20.1;s;
+TIME STEP;Section 21.10.22;s;
+TRANSMISSION;Section 20.3.6;%/m;
+U-VELOCITY;Gas velocity component, u;m/s;
+V-VELOCITY;Gas velocity component, v;m/s;
+W-VELOCITY;Gas velocity component, w;m/s;
+UPPER TEMPERATURE;Section 21.10.5;◦ C;
+VELOCITY3;Gas velocity;m/s;
+VISCOSITY;Effective viscosity, μ + μt;kg/(m · s);
+VISIBILITY;Section 21.10.4;m;
+VOLUME FLOW;Section 21.10.13;m3 /s;
+VOLUME FLOW WALL;Section 21.10.13;m3 /s;
+VOLUME FRACTION1;Xα;mol/mol;
+WALL CLOCK TIME;Section 21.10.22;s;
+WALL CLOCK TIME ITERATIONS;Section 21.10.22;s;
+WALL TEMPERATURE;Surface temperature;◦ C;
+WALL THICKNESS;Section 21.10.11;m;
+ABSOLUTE PRESSURE;Absolute Pressure;Pa;
+ADA2;Avg. Droplet (cross sectional) Area;m2 /m3;
+ADA_Z1;Avg. Droplet (cross sectional) Area;m2 /m3;
+ADD2;Avg. Droplet Diameter;μm;
+ADD_Z1;Avg. Droplet Diameter;μm;
+ADT2;Avg. Droplet Temperature;◦ C;
+ADT_Z1;Avg. Droplet Temperature;◦ C;
+ASSUMED GAS TEMPERATURE;Section 11.6;◦ C;
+C_SMAG;Smagorinsky coefficient;;
+AUTO IGNITION TEMPERATURE5;Section 15.1.7;◦ C;
+CABLE TEMPERATURE;Inner temperature of cable;◦ C;
+CELL INDEX I;Mesh cell index in x;;
+CELL INDEX J;Mesh cell index in y;;
+CELL INDEX K;Mesh cell index in z;;
+CELL REYNOLDS NUMBER;Section 21.10.24;;
+CELL U;(ui, j,k + ui−1, j,k )/2;m/s;
+CELL V;(vi, j,k + vi, j−1,k)/2;m/s;
+CELL W;(wi, j,k + wi, j,k−1)/2;m/s;
+CFL;Section 21.10.22;;
+CFL MAX;Section 21.10.22;;
+CHEMISTRY SUBITERATIONS;Section 15.3.4;;
+COMBUSTION EFFICIENCY;min(δt/τmix, 1), if q̇000 > 0, else 0;;
+DIFFUSIVITY1;Species diffusivity;m2 /s;
+DISSIPATION RATE;μ/ρ× STRAIN RATE;m2 /s3;
+EMISSIVITY;Surface emissivity (usually constant);;
+EXTINCTION;Section 21.10.25;;
+F_X, F_Y, F_Z;Momentum terms, F x , F y , F z;m/s2;
+GAS DENSITY;Gas Density near wall;kg/m3;
+GAS TEMPERATURE;Gas Temperature near wall;◦ C;
+H;H = |u|2 /2 + p̃/ρ;(m/s)2;
+HEAT TRANSFER COEFFICIENT;Section 11.2.2;W/(m2 · K);
+HRRPUL;R q̇000  dx dy;kW/m;
+HRRPUV REAC6;q̇000 for REAC_ID;kW/m3;
+IDEAL GAS PRESSURE;p̄ = ρRT /W;Pa;
+INTEGRATED INTENSITY;U = R  I ds;kW/m2;
+KINETIC ENERGY;(u2 + v2 + w2 )/2;(m/s)2;
+KOLMOGOROV LENGTH SCALE;Section 21.10.24;m;
+OBUKHOV LENGTH;Section  11.2.2;m;
+MACH NUMBER;|u|/p(R/W )T γ;;
+MAXIMUM VELOCITY ERROR;Section 9;m/s;
+MIXING TIME;Combustion mixing time;s;
+MOLECULAR VISCOSITY;Molecular viscosity, μ(Z, T );kg/(m · s);
+NORMALIZED HEATING RATE;Section 21.10.11;W/g;
+NORMALIZED HEAT RELEASE RATE;Section 21.10.11;W/g;
+NORMALIZED MASS4;Section 21.10.11;;
+NORMALIZED MASS LOSS RATE4;Section 21.10.11;1/s;
+PARTICLE RADIATION LOSS;∇ · q00 r due to Lagrangian particles;kW/m3;
+PDPA;Droplet statistics, Section 21.10.10;;
+PRESSURE ITERATIONS;Number of pressure iterations;;
+Q CRITERION;1  [trace(∇u)2  − trace((∇u)2  )]  2;1/s2;
+QABS2;Absorption efficiency of droplets;;
+QABS_Z1;Absorption efficiency of droplets;;
+QSCA2;Scattering efficiency of droplets;;
+QSCA_Z1;Scattering efficiency  of droplets;;
+RADIAL VELOCITY;(u, v) · (x, y)/p x2  + y2;m/s;
+RADIATION LOSS;∇ · q00 r;kW/m3;
+RANDOM NUMBER;Uniform random variable over [0,1];;
+REAC SOURCE TERM1;ṁ000  α;kg/m3;
+STRAIN RATE;2(Si j Si j − 1/3(∇ · u)2 );1/s;
+STRAIN RATE X;∂ w/∂ y + ∂ v/∂ z;1/s;
+STRAIN RATE Y;∂ u/∂ z + ∂ w/∂ x;1/s;
+STRAIN RATE Z;∂ v/∂ x + ∂ u/∂ y;1/s;
+SUBGRID KINETIC ENERGY;Section 21.10.24;m2 /s2;
+SUBSTEPS;Section 11.3.8;;
+SUM LUMPED MASS FRACTIONS;∑i Zi (should be 1);;
+SUM PRIMITIVE MASS FRACTIONS;∑α Y α (should be 1);;
+TURBULENT PRANDTL NUMBER7;νt /αt;;
+U MEAN FORCING;Section 18.1.7;m/s;
+V MEAN FORCING;Section 18.1.7;m/s;
+VISCOUS STRESS WALL;Section 21.10.17;Pa;
+VISCOUS WALL UNITS;Section 21.10.24;;
+VN;Section 21.10.22;;
+VN MAX;Section 21.10.22;;
+VORTICITY X;∂ w/∂ y − ∂ v/∂ z;1/s;
+VORTICITY Y;∂ u/∂ z − ∂ w/∂ x;1/s;
+VORTICITY Z;∂ v/∂ x − ∂ u/∂ y;1/s;
+W MEAN FORCING;Section 18.1.7;m/s;
+WALL ENTHALPY;R  ρscsT dV s;kJ;
+WALL PRESSURE;Section 21.10.17;Pa;
+WALL VISCOSITY;Near-wall viscosity, μw;kg/(m · s);
+
+
+
+#ISOF;QUANTITY
+QUANTITY;Symbol;Units
+ABSORPTION COEFFICIENT;Section 16.3;1/m;
+AEROSOL VOLUME FRACTION1;Section 21.10.19;mol/mol;
+BACKGROUND PRESSURE;Background pressure, p;Pa;
+CHI_R;Section 16.1;;
+CONDUCTIVITY;Thermal conductivity;W/(m · K);
+DENSITY;ρ or ρY α with SPEC_ID;kg/m3;
+DIVERGENCE;∇ · u;1/s;
+ENTHALPY;Section 14.1.3;kJ/m3;
+EXTINCTION COEFFICIENT;Section 21.10.4;1/m;
+HRRPUV;q̇000;kW/m3;
+INTERNAL ENERGY;ρh − p̄;kJ/m3;
+MASS FLUX X1;ρuYα;kg/(m2 · s);
+MASS FLUX Y1;ρvYα;kg/(m2 · s);
+MASS FLUX Z1;ρwY α;kg/(m2 · s);
+MASS FRACTION1;Y α;kg/kg;
+MIXTURE FRACTION;Z;kg/kg;
+OPTICAL DENSITY;Section 21.10.4;1/m;
+PRESSURE;Perturbation pressure, p̃;Pa;
+RELATIVE HUMIDITY;Section 15.1.1;%;
+SENSIBLE ENTHALPY;Section 21.10.21;kJ/m3;
+SOLID CELL DENSITY;Section 11.5.9;kg/m3;
+SOLID CELL Q_S;Section 11.5.9;kW/m3;
+SOLID CELL VOLUME RATIO;Section 11.5.9;m3 /m3;
+SPECIFIC ENTHALPY;Section 21.10.21;kJ/kg;
+SPECIFIC HEAT;c p;kJ/(kg · K);
+SPECIFIC INTERNAL ENERGY;h − p̄/ρ;kJ/kg;
+SPECIFIC SENSIBLE ENTHALPY;Section 21.10.21;kJ/kg;
+TEMPERATURE;Section 21.10.6;◦ C;
+U-VELOCITY;Gas velocity component, u;m/s;
+V-VELOCITY;Gas velocity component, v;m/s;
+W-VELOCITY;Gas velocity component, w;m/s;
+VELOCITY3;Gas velocity;m/s;
+VISCOSITY;Effective viscosity, μ + μt;kg/(m · s);
+VISIBILITY;Section 21.10.4;m;
+VOLUME FRACTION1;Xα;mol/mol;
+ABSOLUTE PRESSURE;Absolute Pressure;Pa;
+ADA2;Avg. Droplet (cross sectional) Area;m2 /m3;
+ADA_Z1;Avg. Droplet (cross sectional) Area;m2 /m3;
+ADD2;Avg. Droplet Diameter;μm;
+ADD_Z1;Avg. Droplet Diameter;μm;
+ADT2;Avg. Droplet Temperature;◦ C;
+ADT_Z1;Avg. Droplet Temperature;◦ C;
+ASSUMED GAS TEMPERATURE;Section 11.6;◦ C;
+C_SMAG;Smagorinsky coefficient;;
+AUTO IGNITION TEMPERATURE5;Section 15.1.7;◦ C;
+CELL REYNOLDS NUMBER;Section 21.10.24;;
+CELL U;(ui, j,k + ui−1, j,k )/2;m/s;
+CELL V;(vi, j,k + vi, j−1,k)/2;m/s;
+CELL W;(wi, j,k + wi, j,k−1)/2;m/s;
+CFL;Section 21.10.22;;
+COMBUSTION EFFICIENCY;min(δt/τmix, 1), if q̇000 > 0, else 0;;
+DIFFUSIVITY1;Species diffusivity;m2 /s;
+DISSIPATION RATE;μ/ρ× STRAIN RATE;m2 /s3;
+F_X, F_Y, F_Z;Momentum terms, F x , F y , F z;m/s2;
+H;H = |u|2 /2 + p̃/ρ;(m/s)2;
+IDEAL GAS PRESSURE;p̄ = ρRT /W;Pa;
+INTEGRATED INTENSITY;U = R  I ds;kW/m2;
+KINETIC ENERGY;(u2 + v2 + w2 )/2;(m/s)2;
+KOLMOGOROV LENGTH SCALE;Section 21.10.24;m;
+MIXING TIME;Combustion mixing time;s;
+MOLECULAR VISCOSITY;Molecular viscosity, μ(Z, T );kg/(m · s);
+PARTICLE RADIATION LOSS;∇ · q00 r due to Lagrangian particles;kW/m3;
+Q CRITERION;1  [trace(∇u)2  − trace((∇u)2  )]  2;1/s2;
+QABS2;Absorption efficiency of droplets;;
+QABS_Z1;Absorption efficiency of droplets;;
+QSCA2;Scattering efficiency of droplets;;
+QSCA_Z1;Scattering efficiency  of droplets;;
+RADIAL VELOCITY;(u, v) · (x, y)/p x2  + y2;m/s;
+RADIATION LOSS;∇ · q00 r;kW/m3;
+REAC SOURCE TERM1;ṁ000  α;kg/m3;
+STRAIN RATE;2(Si j Si j − 1/3(∇ · u)2 );1/s;
+STRAIN RATE X;∂ w/∂ y + ∂ v/∂ z;1/s;
+STRAIN RATE Y;∂ u/∂ z + ∂ w/∂ x;1/s;
+STRAIN RATE Z;∂ v/∂ x + ∂ u/∂ y;1/s;
+TURBULENT PRANDTL NUMBER7;νt /αt;;
+VN;Section 21.10.22;;
+VORTICITY X;∂ w/∂ y − ∂ v/∂ z;1/s;
+VORTICITY Y;∂ u/∂ z − ∂ w/∂ x;1/s;
+VORTICITY Z;∂ v/∂ x − ∂ u/∂ y;1/s;
+
+
+
+#PART;QUANTITY
+QUANTITY;Symbol;Units
+PARTICLE AGE;Section 21.9;s;
+PARTICLE DIAMETER;Section 21.9;μm;
+PARTICLE MASS;Section 21.9;kg;
+PARTICLE PHASE;Section 21.9;;
+PARTICLE TEMPERATURE;Section 21.9;◦ C;
+PARTICLE U;Section 21.9;m/s;
+PARTICLE V;Section 21.9;m/s;
+PARTICLE VELOCITY;Section 21.9;m/s;
+PARTICLE W;Section 21.9;m/s;
+PARTICLE WEIGHTING FACTOR;Section 21.9;;
+PARTICLE X;Section 21.9;m;
+PARTICLE Y;Section 21.9;m;
+PARTICLE Z;Section 21.9;m;
+PARTICLE PHASE;Orientation of droplet;;
+
+
+
+#SLCF;QUANTITY
+QUANTITY;Symbol;Units
+ABSORPTION COEFFICIENT;Section 16.3;1/m;
+AEROSOL VOLUME FRACTION1;Section 21.10.19;mol/mol;
+BACKGROUND PRESSURE;Background pressure, p;Pa;
+CHI_R;Section 16.1;;
+CONDUCTIVITY;Thermal conductivity;W/(m · K);
+DENSITY;ρ or ρY α with SPEC_ID;kg/m3;
+DIVERGENCE;∇ · u;1/s;
+ENTHALPY;Section 14.1.3;kJ/m3;
+EXTINCTION COEFFICIENT;Section 21.10.4;1/m;
+FIC;Section 21.10.12;;
+HRRPUV;q̇000;kW/m3;
+INTERNAL ENERGY;ρh − p̄;kJ/m3;
+MASS FLUX X1;ρuYα;kg/(m2 · s);
+MASS FLUX Y1;ρvYα;kg/(m2 · s);
+MASS FLUX Z1;ρwY α;kg/(m2 · s);
+MASS FRACTION1;Y α;kg/kg;
+MIXTURE FRACTION;Z;kg/kg;
+MPUV2;Section 21.9;kg/m3;
+MPUV_Z1;Section 21.9;kg/m3;
+OPTICAL DENSITY;Section 21.10.4;1/m;
+PARTICLE FLUX X2;Section 21.9;kg/(m2 · s);
+PARTICLE FLUX Y2;Section 21.9;kg/(m2 · s);
+PARTICLE FLUX Z2;Section 21.9;kg/(m2 · s);
+PRESSURE;Perturbation pressure, p̃;Pa;
+PRESSURE ZONE;Section 12.3;;
+RELATIVE HUMIDITY;Section 15.1.1;%;
+SENSIBLE ENTHALPY;Section 21.10.21;kJ/m3;
+SOLID CELL DENSITY;Section 11.5.9;kg/m3;
+SOLID CELL Q_S;Section 11.5.9;kW/m3;
+SOLID CELL VOLUME RATIO;Section 11.5.9;m3 /m3;
+SPECIFIC ENTHALPY;Section 21.10.21;kJ/kg;
+SPECIFIC HEAT;c p;kJ/(kg · K);
+SPECIFIC INTERNAL ENERGY;h − p̄/ρ;kJ/kg;
+SPECIFIC SENSIBLE ENTHALPY;Section 21.10.21;kJ/kg;
+TEMPERATURE;Section 21.10.6;◦ C;
+U-VELOCITY;Gas velocity component, u;m/s;
+V-VELOCITY;Gas velocity component, v;m/s;
+W-VELOCITY;Gas velocity component, w;m/s;
+VELOCITY3;Gas velocity;m/s;
+VISCOSITY;Effective viscosity, μ + μt;kg/(m · s);
+VISIBILITY;Section 21.10.4;m;
+VOLUME FRACTION1;Xα;mol/mol;
+ABSOLUTE PRESSURE;Absolute Pressure;Pa;
+ADA2;Avg. Droplet (cross sectional) Area;m2 /m3;
+ADA_Z1;Avg. Droplet (cross sectional) Area;m2 /m3;
+ADD2;Avg. Droplet Diameter;μm;
+ADD_Z1;Avg. Droplet Diameter;μm;
+ADT2;Avg. Droplet Temperature;◦ C;
+ADT_Z1;Avg. Droplet Temperature;◦ C;
+ASSUMED GAS TEMPERATURE;Section 11.6;◦ C;
+C_SMAG;Smagorinsky coefficient;;
+AUTO IGNITION TEMPERATURE5;Section 15.1.7;◦ C;
+CELL INDEX I;Mesh cell index in x;;
+CELL INDEX J;Mesh cell index in y;;
+CELL INDEX K;Mesh cell index in z;;
+CELL REYNOLDS NUMBER;Section 21.10.24;;
+CELL U;(ui, j,k + ui−1, j,k )/2;m/s;
+CELL V;(vi, j,k + vi, j−1,k)/2;m/s;
+CELL W;(wi, j,k + wi, j,k−1)/2;m/s;
+CFL;Section 21.10.22;;
+CHEMISTRY SUBITERATIONS;Section 15.3.4;;
+COMBUSTION EFFICIENCY;min(δt/τmix, 1), if q̇000 > 0, else 0;;
+DIFFUSIVITY1;Species diffusivity;m2 /s;
+DISSIPATION RATE;μ/ρ× STRAIN RATE;m2 /s3;
+EXTINCTION;Section 21.10.25;;
+F_X, F_Y, F_Z;Momentum terms, F x , F y , F z;m/s2;
+H;H = |u|2 /2 + p̃/ρ;(m/s)2;
+HRRPUV REAC6;q̇000 for REAC_ID;kW/m3;
+IDEAL GAS PRESSURE;p̄ = ρRT /W;Pa;
+INTEGRATED INTENSITY;U = R  I ds;kW/m2;
+KINETIC ENERGY;(u2 + v2 + w2 )/2;(m/s)2;
+KOLMOGOROV LENGTH SCALE;Section 21.10.24;m;
+MACH NUMBER;|u|/p(R/W )T γ;;
+MIXING TIME;Combustion mixing time;s;
+MOLECULAR VISCOSITY;Molecular viscosity, μ(Z, T );kg/(m · s);
+PARTICLE RADIATION LOSS;∇ · q00 r due to Lagrangian particles;kW/m3;
+Q CRITERION;1  [trace(∇u)2  − trace((∇u)2  )]  2;1/s2;
+QABS2;Absorption efficiency of droplets;;
+QABS_Z1;Absorption efficiency of droplets;;
+QSCA2;Scattering efficiency of droplets;;
+QSCA_Z1;Scattering efficiency  of droplets;;
+RADIAL VELOCITY;(u, v) · (x, y)/p x2  + y2;m/s;
+RADIATION LOSS;∇ · q00 r;kW/m3;
+REAC SOURCE TERM1;ṁ000  α;kg/m3;
+STRAIN RATE;2(Si j Si j − 1/3(∇ · u)2 );1/s;
+STRAIN RATE X;∂ w/∂ y + ∂ v/∂ z;1/s;
+STRAIN RATE Y;∂ u/∂ z + ∂ w/∂ x;1/s;
+STRAIN RATE Z;∂ v/∂ x + ∂ u/∂ y;1/s;
+SUBGRID KINETIC ENERGY;Section 21.10.24;m2 /s2;
+SUM LUMPED MASS FRACTIONS;∑i Zi (should be 1);;
+SUM PRIMITIVE MASS FRACTIONS;∑α Y α (should be 1);;
+TURBULENT PRANDTL NUMBER7;νt /αt;;
+VN;Section 21.10.22;;
+VORTICITY X;∂ w/∂ y − ∂ v/∂ z;1/s;
+VORTICITY Y;∂ u/∂ z − ∂ w/∂ x;1/s;
+VORTICITY Z;∂ v/∂ x − ∂ u/∂ y;1/s;
+WAVELET  ERROR3;Section 21.10.24;;
+
+
+
+#DUMP;PLOT3D_QUANTITY
+QUANTITY;Symbol;Units
+ABSORPTION COEFFICIENT;Section 16.3;1/m;
+AEROSOL VOLUME FRACTION1;Section 21.10.19;mol/mol;
+BACKGROUND PRESSURE;Background pressure, p;Pa;
+CONDUCTIVITY;Thermal conductivity;W/(m · K);
+DENSITY;ρ or ρY α with SPEC_ID;kg/m3;
+DIVERGENCE;∇ · u;1/s;
+ENTHALPY;Section 14.1.3;kJ/m3;
+EXTINCTION COEFFICIENT;Section 21.10.4;1/m;
+HRRPUV;q̇000;kW/m3;
+INTERNAL ENERGY;ρh − p̄;kJ/m3;
+MASS FLUX X1;ρuYα;kg/(m2 · s);
+MASS FLUX Y1;ρvYα;kg/(m2 · s);
+MASS FLUX Z1;ρwY α;kg/(m2 · s);
+MASS FRACTION1;Y α;kg/kg;
+MIXTURE FRACTION;Z;kg/kg;
+MPUV2;Section 21.9;kg/m3;
+MPUV_Z1;Section 21.9;kg/m3;
+OPTICAL DENSITY;Section 21.10.4;1/m;
+PARTICLE FLUX X2;Section 21.9;kg/(m2 · s);
+PARTICLE FLUX Y2;Section 21.9;kg/(m2 · s);
+PARTICLE FLUX Z2;Section 21.9;kg/(m2 · s);
+PRESSURE;Perturbation pressure, p̃;Pa;
+RELATIVE HUMIDITY;Section 15.1.1;%;
+SENSIBLE ENTHALPY;Section 21.10.21;kJ/m3;
+SOLID CELL DENSITY;Section 11.5.9;kg/m3;
+SOLID CELL Q_S;Section 11.5.9;kW/m3;
+SOLID CELL VOLUME RATIO;Section 11.5.9;m3 /m3;
+SPECIFIC ENTHALPY;Section 21.10.21;kJ/kg;
+SPECIFIC HEAT;c p;kJ/(kg · K);
+SPECIFIC INTERNAL ENERGY;h − p̄/ρ;kJ/kg;
+SPECIFIC SENSIBLE ENTHALPY;Section 21.10.21;kJ/kg;
+TEMPERATURE;Section 21.10.6;◦ C;
+U-VELOCITY;Gas velocity component, u;m/s;
+V-VELOCITY;Gas velocity component, v;m/s;
+W-VELOCITY;Gas velocity component, w;m/s;
+VELOCITY3;Gas velocity;m/s;
+VISCOSITY;Effective viscosity, μ + μt;kg/(m · s);
+VISIBILITY;Section 21.10.4;m;
+VOLUME FRACTION1;Xα;mol/mol;
+ABSOLUTE PRESSURE;Absolute Pressure;Pa;
+ADA2;Avg. Droplet (cross sectional) Area;m2 /m3;
+ADA_Z1;Avg. Droplet (cross sectional) Area;m2 /m3;
+ADD2;Avg. Droplet Diameter;μm;
+ADD_Z1;Avg. Droplet Diameter;μm;
+ADT2;Avg. Droplet Temperature;◦ C;
+ADT_Z1;Avg. Droplet Temperature;◦ C;
+ASSUMED GAS TEMPERATURE;Section 11.6;◦ C;
+C_SMAG;Smagorinsky coefficient;;
+AUTO IGNITION TEMPERATURE5;Section 15.1.7;◦ C;
+CELL REYNOLDS NUMBER;Section 21.10.24;;
+CELL U;(ui, j,k + ui−1, j,k )/2;m/s;
+CELL V;(vi, j,k + vi, j−1,k)/2;m/s;
+CELL W;(wi, j,k + wi, j,k−1)/2;m/s;
+CFL;Section 21.10.22;;
+COMBUSTION EFFICIENCY;min(δt/τmix, 1), if q̇000 > 0, else 0;;
+DIFFUSIVITY1;Species diffusivity;m2 /s;
+DISSIPATION RATE;μ/ρ× STRAIN RATE;m2 /s3;
+F_X, F_Y, F_Z;Momentum terms, F x , F y , F z;m/s2;
+H;H = |u|2 /2 + p̃/ρ;(m/s)2;
+IDEAL GAS PRESSURE;p̄ = ρRT /W;Pa;
+INTEGRATED INTENSITY;U = R  I ds;kW/m2;
+KINETIC ENERGY;(u2 + v2 + w2 )/2;(m/s)2;
+KOLMOGOROV LENGTH SCALE;Section 21.10.24;m;
+MIXING TIME;Combustion mixing time;s;
+MOLECULAR VISCOSITY;Molecular viscosity, μ(Z, T );kg/(m · s);
+PARTICLE RADIATION LOSS;∇ · q00 r due to Lagrangian particles;kW/m3;
+Q CRITERION;1  [trace(∇u)2  − trace((∇u)2  )]  2;1/s2;
+QABS2;Absorption efficiency of droplets;;
+QABS_Z1;Absorption efficiency of droplets;;
+QSCA2;Scattering efficiency of droplets;;
+QSCA_Z1;Scattering efficiency  of droplets;;
+RADIAL VELOCITY;(u, v) · (x, y)/p x2  + y2;m/s;
+RADIATION LOSS;∇ · q00 r;kW/m3;
+REAC SOURCE TERM1;ṁ000  α;kg/m3;
+STRAIN RATE;2(Si j Si j − 1/3(∇ · u)2 );1/s;
+STRAIN RATE X;∂ w/∂ y + ∂ v/∂ z;1/s;
+STRAIN RATE Y;∂ u/∂ z + ∂ w/∂ x;1/s;
+STRAIN RATE Z;∂ v/∂ x + ∂ u/∂ y;1/s;
+TURBULENT PRANDTL NUMBER7;νt /αt;;
+VN;Section 21.10.22;;
+VORTICITY X;∂ w/∂ y − ∂ v/∂ z;1/s;
+VORTICITY Y;∂ u/∂ z − ∂ w/∂ x;1/s;
+VORTICITY Z;∂ v/∂ x − ∂ u/∂ y;1/s;

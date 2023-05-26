@@ -1,8 +1,7 @@
 out
 node_modules
-client/server
 .vscode-test
-.vscode
+/server
 package-lock.json
 todo.md
 release.zip

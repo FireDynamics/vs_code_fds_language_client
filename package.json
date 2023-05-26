@@ -8,7 +8,7 @@
 		"type": "GitHub",
 		"url": "https://github.com/FireDynamics/vs_code_fds_language_client"
 	},
-	"publisher": "",
+	"publisher": "Test",
 	"categories": [],
 	"keywords": [
 		"multi-root ready"
