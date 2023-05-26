@@ -5,5 +5,5 @@ files=($path/"README.md" $path/"package.json" $path/"fds/" $path/"client/node_mo
 
 cd ..
 zip -r $path/release.zip ${files[@]}
-echo "End"
-cd ../path
+cd ./$path
+mv release.zip ../release.zip
